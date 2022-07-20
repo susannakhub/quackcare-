@@ -61,7 +61,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="water"/>
                                 <connections>
-                                    <segue destination="2IZ-Tu-PV7" kind="show" id="Xl6-p3-UDj"/>
+                                    <segue destination="2IZ-Tu-PV7" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Y4h-bn-yHL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfr-ok-Zzh">
@@ -105,12 +105,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="heart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGu-wK-bgz">
-                                <rect key="frame" x="210" y="116" width="40" height="21"/>
+                                <rect key="frame" x="163" y="74" width="88" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POi-qj-Jri">
+                                <rect key="frame" x="251" y="343" width="67" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="add"/>
+                                <connections>
+                                    <segue destination="OSN-8G-2t0" kind="presentation" modalPresentationStyle="fullScreen" id="H5u-fL-8nj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wwr-UB-r8f"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -118,7 +127,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ku5-qO-6qB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1696" y="82"/>
+            <point key="canvasLocation" x="1695.6521739130435" y="81.696428571428569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZmX-uf-I7M">
+            <objects>
+                <viewController id="OSN-8G-2t0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oii-uN-WJQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ttO-P7-Mci"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zhK-ev-JeL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2554" y="-151"/>
         </scene>
         <!--Shop View Controller-->
         <scene sceneID="Zcm-zC-bww">
@@ -196,7 +220,7 @@
             <objects>
                 <viewController id="2IZ-Tu-PV7" customClass="WaterViewController" customModule="quackcare_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CHy-Hs-96w">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="water3" translatesAutoresizingMaskIntoConstraints="NO" id="Dgf-oO-JCV">
@@ -232,9 +256,7 @@
                                     <color key="baseBackgroundColor" red="0.62853056669999996" green="0.69234707429999998" blue="0.44476507990000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="Button:" destination="2IZ-Tu-PV7" eventType="touchUpInside" id="0eA-BM-40T"/>
                                     <action selector="Level4:" destination="2IZ-Tu-PV7" eventType="touchUpInside" id="IbC-by-FqF"/>
-                                    <action selector="cup8:" destination="2IZ-Tu-PV7" eventType="touchUpInside" id="NpT-pL-UyC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqj-0Z-Mac">
@@ -254,9 +276,7 @@
                                     <color key="baseBackgroundColor" red="0.62853056669999996" green="0.69234707429999998" blue="0.44476507990000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="Button:" destination="2IZ-Tu-PV7" eventType="touchUpInside" id="xk5-ea-rRH"/>
                                     <action selector="Level3:" destination="2IZ-Tu-PV7" eventType="touchUpInside" id="zhO-Hi-nDT"/>
-                                    <action selector="water4:" destination="2IZ-Tu-PV7" eventType="touchUpInside" id="5Tp-Z3-Q1q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lf0-12-e0t">
@@ -276,7 +296,6 @@
                                     <color key="baseBackgroundColor" red="0.62853056669999996" green="0.69234707429999998" blue="0.44476507990000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="Button:" destination="2IZ-Tu-PV7" eventType="touchUpInside" id="uIf-at-Jax"/>
                                     <action selector="Level2:" destination="2IZ-Tu-PV7" eventType="touchUpInside" id="Anf-hm-9NE"/>
                                 </connections>
                             </button>
@@ -297,9 +316,7 @@
                                     <color key="baseBackgroundColor" red="0.62853056669999996" green="0.69234707429999998" blue="0.44476507990000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="Button:" destination="2IZ-Tu-PV7" eventType="touchUpInside" id="oEB-to-uZC"/>
                                     <action selector="Level1:" destination="2IZ-Tu-PV7" eventType="touchUpInside" id="QZN-39-Q0S"/>
-                                    <action selector="cup2:" destination="2IZ-Tu-PV7" eventType="touchUpInside" id="esZ-U0-KSY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -312,7 +329,6 @@
                         <outlet property="Cup4" destination="rvR-9p-p9U" id="pLa-td-Y2V"/>
                         <outlet property="Cup6" destination="BoS-nE-Jam" id="Vv3-SF-Bv4"/>
                         <outlet property="Cup8" destination="Dgf-oO-JCV" id="NPS-QT-9Gj"/>
-                        <outlet property="water1" destination="rvR-9p-p9U" id="Pgj-Qr-WSr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="riy-zb-lfu" sceneMemberID="firstResponder"/>
