@@ -10,11 +10,12 @@ import UIKit
 class GoalViewController: UIViewController {
     
     var heartVC = HeartViewController()
+    var temp = ""
 
     @IBOutlet weak var textFieldOne: UITextField!
     
     @IBAction func doneButtonOne(_ sender: Any) {
-       // textFieldOne.text = heartVC.goalOneLabel.text
+        temp = textFieldOne.text!
     }
     
     
@@ -24,6 +25,10 @@ class GoalViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let newVC = segue.destination as! HeartViewController
+        newVC.results = temp
+    }
 
     /*
     // MARK: - Navigation
