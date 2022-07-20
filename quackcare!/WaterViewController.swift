@@ -58,30 +58,81 @@ class WaterViewController: UIViewController {
             twoCupsButton.setTitle ("2 Cups", for: .normal)
         }
     }
+    // cup 2 ends
+    
+    
+    ///////////////////////////////////////////////
     //fourCupsButton
+    var pressedNum2 = 1
+    
+    
     @IBAction func Level2(_ sender: Any) {
         
-        Cup2.isHidden = false
-        Cup4.isHidden = false
-        Cup6.isHidden = true
-        Cup8.isHidden = true
+        pressedNum2 = (pressedNum2 + 1)
+        if pressedNum2 % 2 == 0 {
+            Cup2.isHidden = false
+            Cup4.isHidden = false
+            Cup6.isHidden = true
+            Cup8.isHidden = true
+        fourCupsButton.setTitle ("Undo", for: .normal)
+        }
+        else {
+            Cup2.isHidden = false
+            Cup4.isHidden = true
+            Cup6.isHidden = true
+            Cup8.isHidden = true
+            fourCupsButton.setTitle ("4 Cups", for: .normal)
+        }
+        
+    }
+    // cup4 ends
+    /////////////////////////////////////////////////
+    var pressedNum3 = 1
+    //sixCupsButton
+    @IBAction func Level3(_ sender: Any) {
+        pressedNum3 = (pressedNum3 + 1)
+        if pressedNum3 % 2 == 0 {
+            Cup2.isHidden = false
+            Cup4.isHidden = false
+            Cup6.isHidden = false
+            Cup8.isHidden = true
+        sixCupsButton.setTitle ("Undo", for: .normal)
+        }
+        else {
+            Cup2.isHidden = false
+            Cup4.isHidden = false
+            Cup6.isHidden = true
+            Cup8.isHidden = true
+            sixCupsButton.setTitle ("6 Cups", for: .normal)
+        }
+        
     }
     
-    @IBAction func Level3(_ sender: Any) {
-        Cup2.isHidden = false
-        Cup4.isHidden = false
-        Cup6.isHidden = false
-        Cup8.isHidden = true
-    }
+    
+    
+    // eightCupsButton
+
+    var pressedNum4 = 1
     
     @IBAction func Level4(_ sender: Any) {
-        Cup2.isHidden = false
-        Cup4.isHidden = false
-        Cup6.isHidden = false
-        Cup8.isHidden = false
+        pressedNum4 = (pressedNum4 + 1)
+        if pressedNum4 % 2 == 0 {
+            Cup2.isHidden = false
+            Cup4.isHidden = false
+            Cup6.isHidden = false
+            Cup8.isHidden = false
+        eightCupsButton.setTitle ("Undo", for: .normal)
+        }
+        else {
+            Cup2.isHidden = false
+            Cup4.isHidden = false
+            Cup6.isHidden = false
+            Cup8.isHidden = true
+            eightCupsButton.setTitle ("8 Cups", for: .normal)
+        }
     }
     
-    
+    //end
     
 
     /*
