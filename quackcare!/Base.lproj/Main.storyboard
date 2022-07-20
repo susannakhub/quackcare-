@@ -111,15 +111,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POi-qj-Jri">
-                                <rect key="frame" x="251" y="343" width="67" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="add"/>
-                                <connections>
-                                    <segue destination="OSN-8G-2t0" kind="presentation" modalPresentationStyle="fullScreen" id="H5u-fL-8nj"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bfp-Ei-04O">
                                 <rect key="frame" x="0.0" y="822" width="414" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -128,20 +119,20 @@
                                 <nil key="textColor"/>
                                 <color key="highlightedColor" systemColor="systemBackgroundColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="filledHome" translatesAutoresizingMaskIntoConstraints="NO" id="hMS-zL-EsG">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clearHome" translatesAutoresizingMaskIntoConstraints="NO" id="hMS-zL-EsG">
                                 <rect key="frame" x="34" y="837" width="46" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clearHeart" translatesAutoresizingMaskIntoConstraints="NO" id="Vgq-WM-8uN">
-                                <rect key="frame" x="243" y="837" width="41" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clearHome" translatesAutoresizingMaskIntoConstraints="NO" id="oUi-0g-pp7">
-                                <rect key="frame" x="341" y="837" width="45" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clearDrop" translatesAutoresizingMaskIntoConstraints="NO" id="ESK-Jk-WTq">
                                 <rect key="frame" x="142" y="837" width="43" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="filledHeart" translatesAutoresizingMaskIntoConstraints="NO" id="Vgq-WM-8uN">
+                                <rect key="frame" x="247" y="837" width="41" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clearShop" translatesAutoresizingMaskIntoConstraints="NO" id="Rab-EV-Dyb">
+                                <rect key="frame" x="345" y="837" width="41" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -362,9 +353,9 @@
     </scenes>
     <resources>
         <image name="clearDrop" width="433" height="577"/>
-        <image name="clearHeart" width="521" height="479"/>
         <image name="clearHome" width="550" height="454"/>
-        <image name="filledHome" width="552" height="452"/>
+        <image name="clearShop" width="344" height="344"/>
+        <image name="filledHeart" width="1220" height="1078"/>
         <image name="water2" width="3000" height="3000"/>
         <image name="water3" width="3000" height="3000"/>
         <systemColor name="systemBackgroundColor">
