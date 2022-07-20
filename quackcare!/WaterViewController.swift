@@ -27,11 +27,24 @@ class WaterViewController: UIViewController {
         Cup8.isHidden = true
     }
     
+    var pressedNum = 1
+    
     @IBAction func Level1(_ sender: Any) {
+        pressedNum = (pressedNum + 1)
+        if pressedNum % 2 == 0 {
         Cup2.isHidden = false
         Cup4.isHidden = true
         Cup6.isHidden = true
         Cup8.isHidden = true
+            Level1.setTitle ("Undo", forState: .normal)
+        }
+        else {
+            Cup2.isHidden = true
+            Cup4.isHidden = true
+            Cup6.isHidden = true
+            Cup8.isHidden = true
+            Level1.title = "2 Cups"
+        }
     }
     
     @IBAction func Level2(_ sender: Any) {
