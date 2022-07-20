@@ -120,9 +120,33 @@
                                     <segue destination="OSN-8G-2t0" kind="presentation" modalPresentationStyle="fullScreen" id="H5u-fL-8nj"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bfp-Ei-04O">
+                                <rect key="frame" x="0.0" y="822" width="414" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" systemColor="systemBackgroundColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="filledHome" translatesAutoresizingMaskIntoConstraints="NO" id="hMS-zL-EsG">
+                                <rect key="frame" x="34" y="837" width="46" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clearHeart" translatesAutoresizingMaskIntoConstraints="NO" id="Vgq-WM-8uN">
+                                <rect key="frame" x="243" y="837" width="41" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clearHome" translatesAutoresizingMaskIntoConstraints="NO" id="oUi-0g-pp7">
+                                <rect key="frame" x="341" y="837" width="45" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clearDrop" translatesAutoresizingMaskIntoConstraints="NO" id="ESK-Jk-WTq">
+                                <rect key="frame" x="142" y="837" width="43" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wwr-UB-r8f"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.96841138601303101" green="0.90739960747205528" blue="0.66674271531205531" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ku5-qO-6qB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -247,7 +271,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="8 cups ">
                                             <attributes>
-                                                <font key="NSFont" size="18" name="DFWaWaSC-W5"/>
+                                                <font key="NSFont" metaFont="system" size="18"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -267,7 +291,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="6 cups ">
                                             <attributes>
-                                                <font key="NSFont" size="18" name="DFWaWaSC-W5"/>
+                                                <font key="NSFont" metaFont="system" size="18"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -287,7 +311,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="4 cups ">
                                             <attributes>
-                                                <font key="NSFont" size="18" name="DFWaWaSC-W5"/>
+                                                <font key="NSFont" metaFont="system" size="18"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -307,7 +331,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="2 cups ">
                                             <attributes>
-                                                <font key="NSFont" size="18" name="DFWaWaSC-W5"/>
+                                                <font key="NSFont" metaFont="system" size="18"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -337,6 +361,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="clearDrop" width="433" height="577"/>
+        <image name="clearHeart" width="521" height="479"/>
+        <image name="clearHome" width="550" height="454"/>
+        <image name="filledHome" width="552" height="452"/>
         <image name="water2" width="3000" height="3000"/>
         <image name="water3" width="3000" height="3000"/>
         <systemColor name="systemBackgroundColor">
