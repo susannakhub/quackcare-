@@ -17,6 +17,18 @@ class WaterViewController: UIViewController {
     
     @IBOutlet weak var Cup8: UIImageView!
     
+    // button variables as outlets
+    
+    @IBOutlet weak var twoCupsButton: UIButton!
+    
+    @IBOutlet weak var fourCupsButton: UIButton!
+    
+    @IBOutlet weak var sixCupsButton: UIButton!
+    
+    @IBOutlet weak var eightCupsButton: UIButton!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -36,18 +48,19 @@ class WaterViewController: UIViewController {
         Cup4.isHidden = true
         Cup6.isHidden = true
         Cup8.isHidden = true
-            //Level1.setTitle ("Undo", forState: .normal)
+        twoCupsButton.setTitle ("Undo", for: .normal)
         }
         else {
             Cup2.isHidden = true
             Cup4.isHidden = true
             Cup6.isHidden = true
             Cup8.isHidden = true
-            //Level1.title = "2 Cups"
+            twoCupsButton.setTitle ("2 Cups", for: .normal)
         }
     }
-    
+    //fourCupsButton
     @IBAction func Level2(_ sender: Any) {
+        
         Cup2.isHidden = false
         Cup4.isHidden = false
         Cup6.isHidden = true

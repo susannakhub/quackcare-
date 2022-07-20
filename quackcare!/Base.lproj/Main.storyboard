@@ -709,6 +709,10 @@
                         <outlet property="Cup4" destination="rvR-9p-p9U" id="pLa-td-Y2V"/>
                         <outlet property="Cup6" destination="BoS-nE-Jam" id="Vv3-SF-Bv4"/>
                         <outlet property="Cup8" destination="Dgf-oO-JCV" id="NPS-QT-9Gj"/>
+                        <outlet property="eightCupsButton" destination="9nI-e2-8sX" id="T9T-Yy-TUx"/>
+                        <outlet property="fourCupsButton" destination="Lf0-12-e0t" id="gsG-fQ-dUc"/>
+                        <outlet property="sixCupsButton" destination="uqj-0Z-Mac" id="F5e-ct-Epa"/>
+                        <outlet property="twoCupsButton" destination="kXm-Ud-ueP" id="vtn-YQ-ohY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="riy-zb-lfu" sceneMemberID="firstResponder"/>
@@ -718,9 +722,9 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="0WX-1v-vdt"/>
-        <segue reference="CaN-Io-ex7"/>
-        <segue reference="QCZ-Sd-0S6"/>
-        <segue reference="s4E-Nz-Tuv"/>
+        <segue reference="2e8-zv-FL6"/>
+        <segue reference="mNy-vM-NT4"/>
+        <segue reference="sPn-NU-pZb"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="clearDrop" width="433" height="577"/>
