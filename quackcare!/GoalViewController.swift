@@ -15,6 +15,7 @@ class GoalViewController: UIViewController {
     
     @IBAction func doneOne(_ sender: Any) {
         textFieldOne.text = heartVC.goalOneLabel.text
+        
     }
     
     override func viewDidLoad() {
