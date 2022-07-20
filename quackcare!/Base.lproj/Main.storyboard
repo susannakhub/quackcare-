@@ -757,7 +757,7 @@
         <!--Hats View Controller-->
         <scene sceneID="1zi-BW-vHY">
             <objects>
-                <viewController id="Yvj-tl-Zg5" customClass="hatsViewController" customModule="quackCareMock" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Yvj-tl-Zg5" customClass="hatsViewController" customModule="quackcare_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T3v-kj-XOy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -840,7 +840,7 @@
         <!--Color View Controller-->
         <scene sceneID="T0d-HX-H9v">
             <objects>
-                <viewController id="YIc-9h-5PS" customClass="colorViewController" customModule="quackCareMock" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="YIc-9h-5PS" customClass="colorViewController" customModule="quackcare_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C5L-mH-6jC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -854,27 +854,23 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="whiteduck" translatesAutoresizingMaskIntoConstraints="NO" id="dNb-Zd-13w">
-                                <rect key="frame" x="20" y="620" width="349" height="262"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pinkduck" translatesAutoresizingMaskIntoConstraints="NO" id="vcx-7y-IDh">
-                                <rect key="frame" x="15" y="627" width="349" height="262"/>
+                                <rect key="frame" x="25" y="627" width="349" height="262"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueduck" translatesAutoresizingMaskIntoConstraints="NO" id="F1x-p8-W5W">
-                                <rect key="frame" x="15" y="627" width="349" height="262"/>
+                                <rect key="frame" x="14" y="627" width="349" height="262"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purpleduck" translatesAutoresizingMaskIntoConstraints="NO" id="M1e-PT-ffP">
-                                <rect key="frame" x="15" y="634" width="349" height="262"/>
+                                <rect key="frame" x="19" y="632" width="349" height="262"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="brownduck" translatesAutoresizingMaskIntoConstraints="NO" id="03A-Ww-lvi">
-                                <rect key="frame" x="15" y="627" width="349" height="262"/>
+                                <rect key="frame" x="20" y="623" width="349" height="262"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="limeduck" translatesAutoresizingMaskIntoConstraints="NO" id="jza-RC-MPS">
-                                <rect key="frame" x="20" y="626" width="349" height="262"/>
+                                <rect key="frame" x="24" y="620" width="349" height="262"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buyog" translatesAutoresizingMaskIntoConstraints="NO" id="gyL-Mu-yJG">
@@ -909,6 +905,10 @@
                                 <rect key="frame" x="159" y="282" width="255" height="257"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pinkduck" translatesAutoresizingMaskIntoConstraints="NO" id="vcx-7y-IDh">
+                                <rect key="frame" x="15" y="622" width="349" height="262"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cF3-Yg-qCl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -916,7 +916,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Veb-IV-qDA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3483" y="816"/>
+            <point key="canvasLocation" x="3482.608695652174" y="815.625"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
