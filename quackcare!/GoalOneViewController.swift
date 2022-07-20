@@ -1,22 +1,14 @@
 //
-//  HeartViewController.swift
+//  GoalOneViewController.swift
 //  quackcare!
 //
-//  Created by Scholar on 7/19/22.
+//  Created by Scholar on 7/20/22.
 //
 
 import UIKit
 
-class HeartViewController: UIViewController {
-    
-    @IBOutlet weak var goalOneLabel: UILabel!
-    @IBOutlet weak var goalTwoLabel: UILabel!
-    @IBOutlet weak var goalThreeLabel: UILabel!
-    @IBOutlet weak var goalFourLabel: UILabel!
-    @IBOutlet weak var goalFiveLabel: UILabel!
-    
-    
-    
+class GoalOneViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
