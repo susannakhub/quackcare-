@@ -14,7 +14,7 @@ class GoalViewController: UIViewController {
     @IBOutlet weak var textFieldOne: UITextField!
     
     @IBAction func doneButtonOne(_ sender: Any) {
-        textFieldOne.text = heartVC.goalOneLabel.text
+       // textFieldOne.text = heartVC.goalOneLabel.text
     }
     
     

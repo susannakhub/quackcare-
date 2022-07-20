@@ -388,14 +388,18 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="arx-mP-sch" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="s9h-13-eSs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVn-ni-t9c">
-                                <rect key="frame" x="258" y="307" width="57" height="31"/>
+                                <rect key="frame" x="260" y="305" width="57" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="done"/>
                                 <connections>
-                                    <action selector="doneOne:" destination="OSN-8G-2t0" eventType="touchUpInside" id="ckJ-l0-ro1"/>
+                                    <action selector="doneButtonOne:" destination="OSN-8G-2t0" eventType="touchUpInside" id="YfF-ua-Xrt"/>
+                                    <segue destination="arx-mP-sch" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="fEW-CT-q2E"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -721,9 +725,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="0WX-1v-vdt"/>
+        <segue reference="6Ij-hc-ald"/>
         <segue reference="2e8-zv-FL6"/>
-        <segue reference="mNy-vM-NT4"/>
+        <segue reference="fEW-CT-q2E"/>
         <segue reference="sPn-NU-pZb"/>
     </inferredMetricsTieBreakers>
     <resources>
