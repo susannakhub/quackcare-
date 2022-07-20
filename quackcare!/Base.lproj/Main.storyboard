@@ -718,7 +718,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <segue destination="3pn-5A-YUA" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="F9Z-Eo-ucn"/>
+                                    <segue destination="3pn-5A-YUA" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Zdq-vG-kcM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ULF-HY-Cvt">
@@ -727,7 +727,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <segue destination="2IZ-Tu-PV7" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="gdb-aa-EDL"/>
+                                    <segue destination="2IZ-Tu-PV7" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="ah7-Hb-kMK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fol-V7-aib">
@@ -742,7 +742,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <segue destination="arx-mP-sch" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="olt-bU-Tfg"/>
+                                    <segue destination="arx-mP-sch" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="fyX-jy-aEi"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -920,9 +920,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="gdb-aa-EDL"/>
-        <segue reference="olt-bU-Tfg"/>
-        <segue reference="F9Z-Eo-ucn"/>
+        <segue reference="ah7-Hb-kMK"/>
+        <segue reference="fyX-jy-aEi"/>
+        <segue reference="Zdq-vG-kcM"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Untitled design (6)" width="1080" height="1080"/>
