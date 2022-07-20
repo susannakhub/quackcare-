@@ -9,11 +9,53 @@ import UIKit
 
 class WaterViewController: UIViewController {
 
+    @IBOutlet weak var Cup2: UIImageView!
+    
+    @IBOutlet weak var Cup4: UIImageView!
+    
+    @IBOutlet weak var Cup6: UIImageView!
+    
+    @IBOutlet weak var Cup8: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        Cup2.isHidden = true
+        Cup4.isHidden = true
+        Cup6.isHidden = true
+        Cup8.isHidden = true
     }
+    
+    @IBAction func Level1(_ sender: Any) {
+        Cup2.isHidden = false
+        Cup4.isHidden = true
+        Cup6.isHidden = true
+        Cup8.isHidden = true
+    }
+    
+    @IBAction func Level2(_ sender: Any) {
+        Cup2.isHidden = false
+        Cup4.isHidden = false
+        Cup6.isHidden = true
+        Cup8.isHidden = true
+    }
+    
+    @IBAction func Level3(_ sender: Any) {
+        Cup2.isHidden = false
+        Cup4.isHidden = false
+        Cup6.isHidden = false
+        Cup8.isHidden = true
+    }
+    
+    @IBAction func Level4(_ sender: Any) {
+        Cup2.isHidden = false
+        Cup4.isHidden = false
+        Cup6.isHidden = false
+        Cup8.isHidden = false
+    }
+    
+    
     
 
     /*
