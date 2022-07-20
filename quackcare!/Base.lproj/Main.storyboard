@@ -277,20 +277,57 @@
             </objects>
             <point key="canvasLocation" x="1695.6521739130435" y="81.696428571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Goal View Controller-->
         <scene sceneID="ZmX-uf-I7M">
             <objects>
-                <viewController id="OSN-8G-2t0" sceneMemberID="viewController">
+                <viewController id="OSN-8G-2t0" customClass="GoalViewController" customModule="quackcare_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oii-uN-WJQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="goal:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6wl-Ij-0ra">
+                                <rect key="frame" x="186" y="129" width="37" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="faE-YV-PkM">
+                                <rect key="frame" x="57" y="188" width="300" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hyR-qa-xP5">
+                                <rect key="frame" x="45" y="270" width="56" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="back"/>
+                                <connections>
+                                    <segue destination="arx-mP-sch" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="fov-UK-es6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anM-na-AET">
+                                <rect key="frame" x="300" y="270" width="57" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="done"/>
+                                <connections>
+                                    <action selector="doneButtonOne:" destination="OSN-8G-2t0" eventType="touchUpInside" id="vq6-OQ-GaK"/>
+                                    <segue destination="arx-mP-sch" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="4mt-9D-bgy"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ttO-P7-Mci"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="textFieldOne" destination="faE-YV-PkM" id="Ue2-mb-I1I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zhK-ev-JeL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2554" y="-151"/>
+            <point key="canvasLocation" x="2553.6231884057975" y="-151.33928571428569"/>
         </scene>
         <!--Shop View Controller-->
         <scene sceneID="Zcm-zC-bww">
@@ -484,6 +521,9 @@
             <point key="canvasLocation" x="1695.6521739130435" y="-618.08035714285711"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="fov-UK-es6"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="clearDrop" width="433" height="577"/>
         <image name="clearHome" width="550" height="454"/>

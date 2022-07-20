@@ -36,14 +36,14 @@ class WaterViewController: UIViewController {
         Cup4.isHidden = true
         Cup6.isHidden = true
         Cup8.isHidden = true
-            Level1.setTitle ("Undo", forState: .normal)
+            //Level1.setTitle ("Undo", forState: .normal)
         }
         else {
             Cup2.isHidden = true
             Cup4.isHidden = true
             Cup6.isHidden = true
             Cup8.isHidden = true
-            Level1.title = "2 Cups"
+            //Level1.title = "2 Cups"
         }
     }
     
