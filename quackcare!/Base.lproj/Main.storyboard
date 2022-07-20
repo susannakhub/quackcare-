@@ -517,12 +517,12 @@
                                 <rect key="frame" x="-4" y="117" width="414" height="296"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="duckwlittleduck" translatesAutoresizingMaskIntoConstraints="NO" id="jSF-oy-M7Y">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="duckPond" translatesAutoresizingMaskIntoConstraints="NO" id="jSF-oy-M7Y">
                                 <rect key="frame" x="0.0" y="421" width="394" height="284"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00u-gp-RCY">
-                                <rect key="frame" x="-4" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="20" y="44" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
@@ -722,9 +722,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6Ij-hc-ald"/>
-        <segue reference="2e8-zv-FL6"/>
-        <segue reference="fEW-CT-q2E"/>
+        <segue reference="0WX-1v-vdt"/>
+        <segue reference="CaN-Io-ex7"/>
+        <segue reference="QCZ-Sd-0S6"/>
         <segue reference="9Jf-Ff-0qX"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -732,7 +732,7 @@
         <image name="clearHeart" width="521" height="479"/>
         <image name="clearHome" width="550" height="454"/>
         <image name="clearShop" width="344" height="344"/>
-        <image name="duckwlittleduck" width="569" height="439"/>
+        <image name="duckPond" width="593" height="421"/>
         <image name="filledDrop" width="425" height="586"/>
         <image name="filledHeart" width="1220" height="1078"/>
         <image name="filledHome" width="552" height="452"/>
