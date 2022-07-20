@@ -514,7 +514,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdZ-Ar-iVg">
-                                <rect key="frame" x="132" y="475" width="130" height="31"/>
+                                <rect key="frame" x="133" y="451" width="261" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="begin"/>
@@ -522,20 +522,17 @@
                                     <segue destination="3pn-5A-YUA" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="IzR-yA-hIG"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cwm-ye-pI6">
-                                <rect key="frame" x="65" y="301" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="quackcareTitle" translatesAutoresizingMaskIntoConstraints="NO" id="Cwm-ye-pI6">
+                                <rect key="frame" x="0.0" y="117" width="414" height="296"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="quackcare" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUX-hL-LTt">
-                                <rect key="frame" x="87" y="222" width="197" height="21"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="duckwithlittleduck" translatesAutoresizingMaskIntoConstraints="NO" id="jSF-oy-M7Y">
+                                <rect key="frame" x="87" y="565" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="0.95454376880930591" blue="0.71655415960164148" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -728,17 +725,19 @@
         <segue reference="6Ij-hc-ald"/>
         <segue reference="2e8-zv-FL6"/>
         <segue reference="fEW-CT-q2E"/>
-        <segue reference="sPn-NU-pZb"/>
+        <segue reference="IzR-yA-hIG"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="clearDrop" width="433" height="577"/>
         <image name="clearHeart" width="521" height="479"/>
         <image name="clearHome" width="550" height="454"/>
         <image name="clearShop" width="344" height="344"/>
+        <image name="duckwithlittleduck" width="1144" height="882"/>
         <image name="filledDrop" width="425" height="586"/>
         <image name="filledHeart" width="1220" height="1078"/>
         <image name="filledHome" width="552" height="452"/>
         <image name="filledShop" width="344" height="344"/>
+        <image name="quackcareTitle" width="577" height="433"/>
         <image name="water2" width="3000" height="3000"/>
         <image name="water3" width="3000" height="3000"/>
         <systemColor name="systemBackgroundColor">
