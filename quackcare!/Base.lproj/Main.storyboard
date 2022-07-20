@@ -514,7 +514,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="quackcareTitle" translatesAutoresizingMaskIntoConstraints="NO" id="Cwm-ye-pI6">
-                                <rect key="frame" x="-4" y="117" width="414" height="296"/>
+                                <rect key="frame" x="-4" y="173" width="414" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="duckwlittleduck" translatesAutoresizingMaskIntoConstraints="NO" id="jSF-oy-M7Y">
