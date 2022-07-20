@@ -9,6 +9,8 @@ import UIKit
 
 class HeartViewController: UIViewController {
     
+    var results = "goal"
+    
     @IBOutlet weak var goalOneLabel: UILabel!
     @IBOutlet weak var goalTwoLabel: UILabel!
     @IBOutlet weak var goalThreeLabel: UILabel!
@@ -19,10 +21,11 @@ class HeartViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        goalOneLabel.text = results
 
         // Do any additional setup after loading the view.
     }
-    
 
     /*
     // MARK: - Navigation
