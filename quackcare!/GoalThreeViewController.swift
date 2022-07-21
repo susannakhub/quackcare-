@@ -9,10 +9,26 @@ import UIKit
 
 class GoalThreeViewController: UIViewController {
 
+    var heartVC = HeartViewController()
+    var temp3 = ""
+
+    @IBOutlet weak var textFieldFour: UITextField!
+    
+
+    @IBAction func doneButtonFour(_ sender: Any) {
+        temp3 = textFieldFour.text!
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let newVC = segue.destination as! HeartViewController
+        newVC.results3 = temp3
     }
     
     //haha

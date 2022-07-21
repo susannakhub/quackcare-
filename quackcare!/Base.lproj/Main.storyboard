@@ -47,7 +47,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hca-9N-9LR">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="points" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hca-9N-9LR">
                                 <rect key="frame" x="162" y="233" width="109" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -108,13 +108,6 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="points" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mer-or-UAE">
-                                <rect key="frame" x="311" y="54" width="75" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mkn-QI-fwQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -368,7 +361,12 @@
                         <color key="backgroundColor" red="0.83722749312066302" green="0.88337127108994284" blue="0.96841138601303101" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
+                        <outlet property="goalFiveLabel" destination="kot-qF-CJM" id="EMs-mJ-M9e"/>
+                        <outlet property="goalFourLabel" destination="WSK-rv-4TU" id="CzY-e0-Y0L"/>
                         <outlet property="goalOneLabel" destination="hch-1n-tQL" id="aWE-o2-ydO"/>
+                        <outlet property="goalThreeLabel" destination="Alu-Lq-0n8" id="qE5-lx-vo1"/>
+                        <outlet property="goalTwoLabel" destination="oec-Fc-kG8" id="XmS-vv-ORV"/>
+                        <outlet property="heartPoints" destination="ryp-FZ-NIY" id="psB-OM-U2U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ku5-qO-6qB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -986,8 +984,8 @@
                                     <segue destination="Zhz-dc-X2o" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="yOe-1j-xgd"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G5Z-Df-1al">
-                                <rect key="frame" x="351" y="9" width="63" height="37"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="points" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G5Z-Df-1al">
+                                <rect key="frame" x="331" y="14" width="63" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1047,7 +1045,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="done"/>
                                 <connections>
-                                    <action selector="doneButtonOne:" destination="V0X-Kl-UUj" eventType="touchUpInside" id="LzA-N7-WhG"/>
+                                    <action selector="doneButtonThree:" destination="V0X-Kl-UUj" eventType="touchUpInside" id="eqw-4T-kAd"/>
                                     <segue destination="arx-mP-sch" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="vsJ-mN-rHt"/>
                                 </connections>
                             </button>
@@ -1056,7 +1054,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="textFieldOne" destination="aMK-rj-pof" id="7XL-UR-Eq5"/>
+                        <outlet property="textFieldThree" destination="aMK-rj-pof" id="jhx-t6-Tve"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p0w-jM-glJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1108,7 +1106,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="done"/>
                                 <connections>
-                                    <action selector="doneButtonOne:" destination="EC5-FX-XPw" eventType="touchUpInside" id="v0Q-DP-eAb"/>
+                                    <action selector="doneButtonTwo:" destination="EC5-FX-XPw" eventType="touchUpInside" id="Iuq-dg-6OQ"/>
                                     <segue destination="arx-mP-sch" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="SYh-1P-Gfs"/>
                                 </connections>
                             </button>
@@ -1117,7 +1115,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="textFieldOne" destination="PwQ-rU-ZAl" id="OaI-KL-3T0"/>
+                        <outlet property="textFieldTwo" destination="PwQ-rU-ZAl" id="AMn-Mf-3PH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xdd-Wt-zJJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1169,7 +1167,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="done"/>
                                 <connections>
-                                    <action selector="doneButtonOne:" destination="yMU-gA-oKL" eventType="touchUpInside" id="J5O-Vg-j8C"/>
+                                    <action selector="doneButtonFour:" destination="yMU-gA-oKL" eventType="touchUpInside" id="CVg-4b-4fL"/>
                                     <segue destination="arx-mP-sch" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="87i-fP-Tua"/>
                                 </connections>
                             </button>
@@ -1178,7 +1176,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="textFieldOne" destination="iL2-v9-XCE" id="7xE-Xz-fXM"/>
+                        <outlet property="textFieldFour" destination="iL2-v9-XCE" id="340-iO-BZ1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OMi-Aq-uxi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1230,6 +1228,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="done"/>
                                 <connections>
+                                    <action selector="doneButtonFive:" destination="VcG-rw-k4V" eventType="touchUpInside" id="oJb-TL-0Ji"/>
                                     <action selector="doneButtonOne:" destination="VcG-rw-k4V" eventType="touchUpInside" id="EBA-XE-1Jf"/>
                                     <segue destination="arx-mP-sch" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="mC6-ib-95S"/>
                                 </connections>
@@ -1239,6 +1238,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="textFieldFive" destination="Rqx-YZ-QSY" id="dFr-V7-n39"/>
                         <outlet property="textFieldOne" destination="Rqx-YZ-QSY" id="AdY-4y-pKr"/>
                     </connections>
                 </viewController>
@@ -1248,10 +1248,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="yOe-1j-xgd"/>
-        <segue reference="Uic-dc-s3Y"/>
-        <segue reference="mNy-vM-NT4"/>
-        <segue reference="sPn-NU-pZb"/>
+        <segue reference="0ET-aN-ZyS"/>
+        <segue reference="0WX-1v-vdt"/>
+        <segue reference="QCZ-Sd-0S6"/>
+        <segue reference="s4E-Nz-Tuv"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Untitled design (6)" width="1080" height="1080"/>
