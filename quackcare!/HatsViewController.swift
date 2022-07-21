@@ -4,13 +4,13 @@
 //
 //  Created by Scholar on 7/21/22.
 //
-
+// hello
 import UIKit
 
 
 
 class HatsViewController: UIViewController {
-// images as outlets 
+// images as outlets
     @IBOutlet weak var partyHat1: UIImageView!
     @IBOutlet weak var sunnies: UIImageView!
     @IBOutlet weak var crown1: UIImageView!
@@ -36,7 +36,7 @@ class HatsViewController: UIViewController {
         cowboy.isHidden = true
         crown1.isHidden = true
         
-        
+        //edits
         
         // Do any additional setup after loading the view.
     }
