@@ -311,6 +311,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="Zhz-dc-X2o" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="0ET-aN-ZyS"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="healthyHabits" translatesAutoresizingMaskIntoConstraints="NO" id="cTu-3U-omK">
                                 <rect key="frame" x="36" y="74" width="344" height="241"/>
@@ -718,7 +721,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <segue destination="3pn-5A-YUA" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Zdq-vG-kcM"/>
+                                    <segue destination="3pn-5A-YUA" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="AM9-6k-SuK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ULF-HY-Cvt">
@@ -727,7 +730,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <segue destination="2IZ-Tu-PV7" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="ah7-Hb-kMK"/>
+                                    <segue destination="2IZ-Tu-PV7" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Uic-dc-s3Y"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fol-V7-aib">
@@ -742,7 +745,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <segue destination="arx-mP-sch" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="fyX-jy-aEi"/>
+                                    <segue destination="arx-mP-sch" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Gz6-0d-ah9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -920,9 +923,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ah7-Hb-kMK"/>
-        <segue reference="fyX-jy-aEi"/>
-        <segue reference="Zdq-vG-kcM"/>
+        <segue reference="Uic-dc-s3Y"/>
+        <segue reference="Gz6-0d-ah9"/>
+        <segue reference="AM9-6k-SuK"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Untitled design (6)" width="1080" height="1080"/>
