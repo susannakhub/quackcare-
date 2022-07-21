@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD4248FA2889FE8B00FA5D49 /* hatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4248F92889FE8B00FA5D49 /* hatsViewController.swift */; };
 		BD4248FC2889FEA200FA5D49 /* neckwearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4248FB2889FEA200FA5D49 /* neckwearViewController.swift */; };
 		BD4248FE2889FEB200FA5D49 /* colorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4248FD2889FEB200FA5D49 /* colorViewController.swift */; };
 		BD4249002889FEBE00FA5D49 /* toysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4248FF2889FEBE00FA5D49 /* toysViewController.swift */; };
@@ -31,7 +30,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BD4248F92889FE8B00FA5D49 /* hatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hatsViewController.swift; sourceTree = "<group>"; };
 		BD4248FB2889FEA200FA5D49 /* neckwearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neckwearViewController.swift; sourceTree = "<group>"; };
 		BD4248FD2889FEB200FA5D49 /* colorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorViewController.swift; sourceTree = "<group>"; };
 		BD4248FF2889FEBE00FA5D49 /* toysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toysViewController.swift; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 				BD7D541B2889BAC300D36E2B /* GoalThreeViewController.swift */,
 				BD7D541D2889BAC900D36E2B /* GoalFourViewController.swift */,
 				BD75A2502887671100353141 /* ShopViewController.swift */,
-				BD4248F92889FE8B00FA5D49 /* hatsViewController.swift */,
 				BD4248FB2889FEA200FA5D49 /* neckwearViewController.swift */,
 				BD4248FD2889FEB200FA5D49 /* colorViewController.swift */,
 				BD4248FF2889FEBE00FA5D49 /* toysViewController.swift */,
@@ -183,7 +180,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD4248FA2889FE8B00FA5D49 /* hatsViewController.swift in Sources */,
 				BD75A24F288766E800353141 /* HomeViewController.swift in Sources */,
 				BD4248FE2889FEB200FA5D49 /* colorViewController.swift in Sources */,
 				BD84CE3728872A4D004936A9 /* ViewController.swift in Sources */,
