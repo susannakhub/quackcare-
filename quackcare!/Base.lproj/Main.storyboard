@@ -1480,10 +1480,10 @@
             </objects>
             <point key="canvasLocation" x="3482.608695652174" y="81.696428571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Toys View Controller-->
         <scene sceneID="7ZW-Iv-cB4">
             <objects>
-                <viewController id="D2K-LJ-jzt" sceneMemberID="viewController">
+                <viewController id="D2K-LJ-jzt" customClass="toysViewController" customModule="quackcare_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H75-Yy-jEH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1583,10 +1583,10 @@
             </objects>
             <point key="canvasLocation" x="3482.608695652174" y="1469.8660714285713"/>
         </scene>
-        <!--View Controller-->
+        <!--More View Controller-->
         <scene sceneID="q8g-IG-YHs">
             <objects>
-                <viewController id="h1x-mM-3OA" sceneMemberID="viewController">
+                <viewController id="h1x-mM-3OA" customClass="moreViewController" customModule="quackcare_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dyc-G3-twn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1650,7 +1650,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="tM4-lx-kLO"/>
+        <segue reference="D1d-Xl-FbK"/>
         <segue reference="Uic-dc-s3Y"/>
         <segue reference="Gz6-0d-ah9"/>
         <segue reference="9Jf-Ff-0qX"/>
