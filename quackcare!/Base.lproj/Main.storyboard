@@ -827,7 +827,7 @@
         <!--Hats View Controller-->
         <scene sceneID="1zi-BW-vHY">
             <objects>
-                <viewController id="Yvj-tl-Zg5" customClass="hatsViewController" customModule="quackcare_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Yvj-tl-Zg5" customClass="HatsViewController" customModule="quackcare_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T3v-kj-XOy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -873,6 +873,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="        "/>
+                                <connections>
+                                    <action selector="partyHat:" destination="Yvj-tl-Zg5" eventType="touchUpInside" id="w1e-HI-ENg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1s-mj-syP">
                                 <rect key="frame" x="46" y="229" width="129" height="126"/>
@@ -926,6 +929,12 @@
                         <viewLayoutGuide key="safeArea" id="uRl-e4-lIi"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="cowboyHat" destination="G1s-mj-syP" id="yzu-fz-ZQI"/>
+                        <outlet property="crownHat" destination="nFP-bR-D4S" id="Zgs-CS-iN7"/>
+                        <outlet property="partyHat" destination="qjj-1w-Tkh" id="ixs-mC-UNH"/>
+                        <outlet property="sunglass" destination="LOS-Up-mYo" id="PZT-Pu-kAc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zOp-ur-doT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1342,7 +1351,7 @@
         <!--Neckwear View Controller-->
         <scene sceneID="AfI-jP-2Zg">
             <objects>
-                <viewController id="ZKq-Md-B7M" customClass="neckwearViewController" customModule="quackCareMock" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZKq-Md-B7M" customClass="neckwearViewController" customModule="quackcare_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1So-Zt-9NV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
