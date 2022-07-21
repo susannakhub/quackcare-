@@ -21,6 +21,8 @@ class ShopViewController: UIViewController {
       
     func displayPoints() {
         shopPoints.text = "\(points)"
+        
+        //ugkjgjh
     }
         
     displayPoints()
