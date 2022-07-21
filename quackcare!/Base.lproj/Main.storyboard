@@ -696,6 +696,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Button"/>
+                                <connections>
+                                    <segue destination="Yvj-tl-Zg5" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Xdt-aT-ipQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVs-wC-wZy">
                                 <rect key="frame" x="74" y="293" width="284" height="63"/>
@@ -806,23 +809,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellowducktransparents" translatesAutoresizingMaskIntoConstraints="NO" id="Eud-70-U0s">
-                                <rect key="frame" x="33" y="572" width="349" height="262"/>
+                                <rect key="frame" x="33" y="507" width="349" height="262"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="partyhat" translatesAutoresizingMaskIntoConstraints="NO" id="4TD-2x-xi2">
-                                <rect key="frame" x="69" y="490" width="240" height="128"/>
+                                <rect key="frame" x="69" y="425" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunnies" translatesAutoresizingMaskIntoConstraints="NO" id="eU8-zo-VPa">
-                                <rect key="frame" x="52" y="588" width="156" height="89"/>
+                                <rect key="frame" x="52" y="523" width="156" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="crown" translatesAutoresizingMaskIntoConstraints="NO" id="add-wT-XuR">
-                                <rect key="frame" x="87" y="507" width="240" height="128"/>
+                                <rect key="frame" x="87" y="442" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cowboyhat" translatesAutoresizingMaskIntoConstraints="NO" id="Tbz-gk-Hmb">
-                                <rect key="frame" x="69" y="523" width="240" height="128"/>
+                                <rect key="frame" x="69" y="458" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buypartyhat" translatesAutoresizingMaskIntoConstraints="NO" id="BbN-qa-SgN">
@@ -872,6 +875,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u4W-A7-wW7">
+                                <rect key="frame" x="46" y="831" width="129" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.075748957693576813" green="0.19184392690658569" blue="0.28450185060501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="back to shop"/>
+                                <connections>
+                                    <segue destination="Zhz-dc-X2o" kind="presentation" animates="NO" id="NJa-iw-sNs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uRl-e4-lIi"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -885,7 +898,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zOp-ur-doT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3484" y="-618"/>
+            <point key="canvasLocation" x="3482.608695652174" y="-618.08035714285711"/>
         </scene>
         <!--Color View Controller-->
         <scene sceneID="T0d-HX-H9v">
@@ -956,11 +969,21 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pinkduck" translatesAutoresizingMaskIntoConstraints="NO" id="vcx-7y-IDh">
-                                <rect key="frame" x="15" y="622" width="349" height="262"/>
+                                <rect key="frame" x="18" y="623" width="349" height="262"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="points" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G5Z-Df-1al">
-                                <rect key="frame" x="296" y="643" width="98" height="37"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYQ-Fe-hLS">
+                                <rect key="frame" x="18" y="831" width="65" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.075748957693576813" green="0.19184392690658569" blue="0.28450185060501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="back"/>
+                                <connections>
+                                    <segue destination="Zhz-dc-X2o" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="yOe-1j-xgd"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G5Z-Df-1al">
+                                <rect key="frame" x="351" y="9" width="63" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1221,8 +1244,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="0WX-1v-vdt"/>
-        <segue reference="QCZ-Sd-0S6"/>
+        <segue reference="yOe-1j-xgd"/>
+        <segue reference="Uic-dc-s3Y"/>
+        <segue reference="Gz6-0d-ah9"/>
         <segue reference="AM9-6k-SuK"/>
     </inferredMetricsTieBreakers>
     <resources>
