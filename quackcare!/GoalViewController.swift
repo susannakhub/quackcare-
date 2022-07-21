@@ -18,8 +18,6 @@ class GoalViewController: UIViewController {
         temp = textFieldOne.text!
     }
     
-    //khfhgfjhgk
-    //ugkjhgj
     override func viewDidLoad() {
         super.viewDidLoad()
 
