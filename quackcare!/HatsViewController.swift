@@ -10,8 +10,13 @@ import UIKit
 
 
 class HatsViewController: UIViewController {
+// images as outlets 
+    @IBOutlet weak var partyHat1: UIImageView!
+    @IBOutlet weak var sunnies: UIImageView!
+    @IBOutlet weak var crown1: UIImageView!
+    @IBOutlet weak var cowboy: UIImageView!
     
-    
+    // buttons
     @IBOutlet weak var partyHat: UIButton!
     
     @IBOutlet weak var cowboyHat: UIButton!
@@ -20,12 +25,23 @@ class HatsViewController: UIViewController {
     
     @IBOutlet weak var sunglass: UIButton!
     
+    @IBAction func buyPartyHat(_ sender: Any) {
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        partyHat1.isHidden = true
+        sunnies.isHidden = true
+        cowboy.isHidden = true
+        crown1.isHidden = true
+        
+        
+        
         // Do any additional setup after loading the view.
     }
+    var numPress1 = 1
+    
     
 
     /*

@@ -874,6 +874,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="        "/>
                                 <connections>
+                                    <action selector="buyPartyHat:" destination="Yvj-tl-Zg5" eventType="touchUpInside" id="d7C-Jr-JiS"/>
                                     <action selector="partyHat:" destination="Yvj-tl-Zg5" eventType="touchUpInside" id="w1e-HI-ENg"/>
                                 </connections>
                             </button>
@@ -930,10 +931,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="cowboy" destination="Tbz-gk-Hmb" id="1Yq-UT-TvY"/>
                         <outlet property="cowboyHat" destination="G1s-mj-syP" id="yzu-fz-ZQI"/>
+                        <outlet property="crown1" destination="add-wT-XuR" id="KOP-89-iNS"/>
                         <outlet property="crownHat" destination="nFP-bR-D4S" id="Zgs-CS-iN7"/>
                         <outlet property="partyHat" destination="qjj-1w-Tkh" id="ixs-mC-UNH"/>
+                        <outlet property="partyHat1" destination="4TD-2x-xi2" id="Ajb-Q1-37U"/>
                         <outlet property="sunglass" destination="LOS-Up-mYo" id="PZT-Pu-kAc"/>
+                        <outlet property="sunnies" destination="eU8-zo-VPa" id="8xu-kc-m3b"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zOp-ur-doT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
