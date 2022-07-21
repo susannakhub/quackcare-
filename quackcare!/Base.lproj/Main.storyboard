@@ -907,7 +907,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="back"/>
                                 <connections>
-                                    <segue destination="Zhz-dc-X2o" kind="presentation" animates="NO" id="NJa-iw-sNs"/>
+                                    <segue destination="Zhz-dc-X2o" kind="presentation" modalPresentationStyle="fullScreen" id="OFR-sn-8qQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1062,7 +1062,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="back"/>
                                 <connections>
-                                    <segue destination="Zhz-dc-X2o" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="yOe-1j-xgd"/>
+                                    <segue destination="Zhz-dc-X2o" kind="presentation" modalPresentationStyle="fullScreen" id="m9h-9W-4NT"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="points" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G5Z-Df-1al">
@@ -1455,6 +1455,9 @@
                                 <color key="tintColor" red="0.075748957689999993" green="0.19184392689999999" blue="0.28450185059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="back"/>
+                                <connections>
+                                    <segue destination="Zhz-dc-X2o" kind="presentation" id="LQ2-Bz-pnp"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="URz-k4-XtW"/>
@@ -1478,11 +1481,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8LA-uD-FGJ">
-                                <rect key="frame" x="24" y="823" width="65" height="31"/>
+                                <rect key="frame" x="23" y="813" width="65" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.075748957689999993" green="0.19184392689999999" blue="0.28450185059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="back"/>
+                                <connections>
+                                    <segue destination="Zhz-dc-X2o" kind="presentation" modalPresentationStyle="fullScreen" id="tM4-lx-kLO"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buybasketball" translatesAutoresizingMaskIntoConstraints="NO" id="rG9-ms-Hr1">
                                 <rect key="frame" x="-16" y="0.0" width="255" height="257"/>
@@ -1563,7 +1569,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hZ0-Ao-YYI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3483" y="1470"/>
+            <point key="canvasLocation" x="3482.608695652174" y="1469.8660714285713"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="q8g-IG-YHs">
@@ -1617,6 +1623,9 @@
                                 <color key="tintColor" red="0.075748957689999993" green="0.19184392689999999" blue="0.28450185059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="back"/>
+                                <connections>
+                                    <segue destination="Zhz-dc-X2o" kind="presentation" modalPresentationStyle="fullScreen" id="D1d-Xl-FbK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LRz-T3-YoL"/>
@@ -1629,7 +1638,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="yOe-1j-xgd"/>
+        <segue reference="D1d-Xl-FbK"/>
         <segue reference="Uic-dc-s3Y"/>
         <segue reference="Gz6-0d-ah9"/>
         <segue reference="AM9-6k-SuK"/>
