@@ -31,6 +31,9 @@ class WaterViewController: UIViewController {
     @IBOutlet weak var eightCupsButton: UIButton!
     
     
+    @IBOutlet weak var waterPoints: UILabel!
+    var shopVC = ShopViewController()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,6 +44,7 @@ class WaterViewController: UIViewController {
         Cup6.isHidden = true
         Cup8.isHidden = true
         sign.isHidden = true
+        displayPoints()
     }
     
     var pressedNum = 1
@@ -138,6 +142,13 @@ class WaterViewController: UIViewController {
         }
     }
     
+    func displayPoints (){
+        waterPoints.text = "\(shopVC.points)"
+    }
+
+
+    
+
     //end
     
 

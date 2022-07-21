@@ -653,6 +653,7 @@
                         <outlet property="fourCupsButton" destination="Lf0-12-e0t" id="gsG-fQ-dUc"/>
                         <outlet property="sixCupsButton" destination="uqj-0Z-Mac" id="F5e-ct-Epa"/>
                         <outlet property="twoCupsButton" destination="kXm-Ud-ueP" id="vtn-YQ-ohY"/>
+                        <outlet property="waterPoints" destination="Iza-05-yne" id="9jl-ab-7DM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="riy-zb-lfu" sceneMemberID="firstResponder"/>
@@ -795,6 +796,9 @@
                         <viewLayoutGuide key="safeArea" id="6gX-h6-cid"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="shopPoints" destination="fi8-QD-Ddi" id="Y7H-3K-dk6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dkc-mv-Gjn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1246,8 +1250,8 @@
     <inferredMetricsTieBreakers>
         <segue reference="yOe-1j-xgd"/>
         <segue reference="Uic-dc-s3Y"/>
-        <segue reference="Gz6-0d-ah9"/>
-        <segue reference="AM9-6k-SuK"/>
+        <segue reference="mNy-vM-NT4"/>
+        <segue reference="sPn-NU-pZb"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Untitled design (6)" width="1080" height="1080"/>
