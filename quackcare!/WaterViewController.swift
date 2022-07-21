@@ -43,7 +43,7 @@ class WaterViewController: UIViewController {
         Cup4.isHidden = true
         Cup6.isHidden = true
         Cup8.isHidden = true
-        //sign.isHidden = true
+        sign.isHidden = true
         displayPoints()
     }
     

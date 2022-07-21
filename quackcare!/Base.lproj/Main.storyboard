@@ -649,6 +649,7 @@
                         <outlet property="Cup8" destination="Dgf-oO-JCV" id="NPS-QT-9Gj"/>
                         <outlet property="eightCupsButton" destination="9nI-e2-8sX" id="T9T-Yy-TUx"/>
                         <outlet property="fourCupsButton" destination="Lf0-12-e0t" id="gsG-fQ-dUc"/>
+                        <outlet property="sign" destination="OK8-GL-nRb" id="gnb-XO-Fu3"/>
                         <outlet property="sixCupsButton" destination="uqj-0Z-Mac" id="F5e-ct-Epa"/>
                         <outlet property="twoCupsButton" destination="kXm-Ud-ueP" id="vtn-YQ-ohY"/>
                         <outlet property="waterPoints" destination="Iza-05-yne" id="9jl-ab-7DM"/>
@@ -1250,8 +1251,8 @@
     <inferredMetricsTieBreakers>
         <segue reference="0ET-aN-ZyS"/>
         <segue reference="0WX-1v-vdt"/>
-        <segue reference="QCZ-Sd-0S6"/>
-        <segue reference="s4E-Nz-Tuv"/>
+        <segue reference="mNy-vM-NT4"/>
+        <segue reference="sPn-NU-pZb"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Untitled design (6)" width="1080" height="1080"/>
