@@ -17,6 +17,9 @@ class WaterViewController: UIViewController {
     
     @IBOutlet weak var Cup8: UIImageView!
     
+    @IBOutlet weak var sign: UIImageView!
+    
+    
     // button variables as outlets
     
     @IBOutlet weak var twoCupsButton: UIButton!
@@ -37,6 +40,7 @@ class WaterViewController: UIViewController {
         Cup4.isHidden = true
         Cup6.isHidden = true
         Cup8.isHidden = true
+        sign.isHidden = true
     }
     
     var pressedNum = 1
@@ -121,6 +125,7 @@ class WaterViewController: UIViewController {
             Cup4.isHidden = false
             Cup6.isHidden = false
             Cup8.isHidden = false
+            sign.isHidden = false
         eightCupsButton.setTitle ("Undo", for: .normal)
         }
         else {
@@ -128,6 +133,7 @@ class WaterViewController: UIViewController {
             Cup4.isHidden = false
             Cup6.isHidden = false
             Cup8.isHidden = true
+            sign.isHidden = true
             eightCupsButton.setTitle ("8 Cups", for: .normal)
         }
     }
