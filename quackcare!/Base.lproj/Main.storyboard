@@ -736,19 +736,19 @@
                                 <color key="highlightedColor" systemColor="systemBackgroundColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clearHome" translatesAutoresizingMaskIntoConstraints="NO" id="zX8-3F-aty">
-                                <rect key="frame" x="37" y="837" width="46" height="34"/>
+                                <rect key="frame" x="34" y="837" width="46" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clearDrop" translatesAutoresizingMaskIntoConstraints="NO" id="vlw-LB-oaR">
-                                <rect key="frame" x="145" y="837" width="43" height="34"/>
+                                <rect key="frame" x="142" y="837" width="43" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clearHeart" translatesAutoresizingMaskIntoConstraints="NO" id="eSH-wr-hpR">
-                                <rect key="frame" x="250" y="837" width="41" height="34"/>
+                                <rect key="frame" x="247" y="837" width="41" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="filledShop" translatesAutoresizingMaskIntoConstraints="NO" id="0hk-hY-Q73">
-                                <rect key="frame" x="348" y="837" width="41" height="34"/>
+                                <rect key="frame" x="345" y="837" width="41" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6p-Yc-8Bg">
@@ -776,7 +776,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erH-qt-tnV">
-                                <rect key="frame" x="239" y="822" width="63" height="57"/>
+                                <rect key="frame" x="236" y="822" width="63" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
@@ -801,7 +801,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dkc-mv-Gjn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2675" y="791"/>
+            <point key="canvasLocation" x="2673.913043478261" y="790.84821428571422"/>
         </scene>
         <!--Hats View Controller-->
         <scene sceneID="1zi-BW-vHY">
@@ -1250,9 +1250,9 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="0ET-aN-ZyS"/>
-        <segue reference="0WX-1v-vdt"/>
-        <segue reference="mNy-vM-NT4"/>
-        <segue reference="sPn-NU-pZb"/>
+        <segue reference="Uic-dc-s3Y"/>
+        <segue reference="Gz6-0d-ah9"/>
+        <segue reference="AM9-6k-SuK"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Untitled design (6)" width="1080" height="1080"/>
