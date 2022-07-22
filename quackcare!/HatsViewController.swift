@@ -50,13 +50,14 @@ class HatsViewController: UIViewController {
             sunnies.isHidden = true
             crown1.isHidden = true
             cowboy.isHidden = true
-            
+            partyHat.setTitle(" Undo ", for: .normal)
         }
         else {
             partyHat1.isHidden = true
             sunnies.isHidden = true
             crown1.isHidden = true  
             cowboy.isHidden = true
+            partyHat.setTitle("  ", for: .normal)
         }
     }
     var numPress2 = 1
@@ -67,6 +68,7 @@ class HatsViewController: UIViewController {
             sunnies.isHidden = true
             crown1.isHidden = true
             cowboy.isHidden = false
+            cowboyHat.setTitle(" Undo ", for: .normal)
             
         }
         else {
@@ -74,6 +76,7 @@ class HatsViewController: UIViewController {
             sunnies.isHidden = true
             crown1.isHidden = true
             cowboy.isHidden = true
+            cowboyHat.setTitle("  ", for: .normal)
         }
     }
     var numPress3 = 1
@@ -85,6 +88,7 @@ class HatsViewController: UIViewController {
             sunnies.isHidden = true
             crown1.isHidden = false
             cowboy.isHidden = true
+            crownHat.setTitle(" Undo ", for: .normal)
             
         }
         else {
@@ -92,6 +96,7 @@ class HatsViewController: UIViewController {
             sunnies.isHidden = true
             crown1.isHidden = true
             cowboy.isHidden = true
+            crownHat.setTitle(" ", for: .normal)
         }
     }
     
@@ -102,6 +107,7 @@ class HatsViewController: UIViewController {
             sunnies.isHidden = false
             crown1.isHidden = true
             cowboy.isHidden = true
+            sunglass.setTitle(" Undo ", for: .normal)
             
         }
         else {
@@ -109,6 +115,7 @@ class HatsViewController: UIViewController {
             sunnies.isHidden = true
             crown1.isHidden = true
             cowboy.isHidden = true
+            sunglass.setTitle(" ", for: .normal)
         }
     }
     
