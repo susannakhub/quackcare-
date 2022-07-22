@@ -100,7 +100,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <segue destination="Zhz-dc-X2o" kind="presentation" modalPresentationStyle="fullScreen" id="bWG-8Z-SCi"/>
+                                    <segue destination="Zhz-dc-X2o" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="bWG-8Z-SCi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfr-ok-Zzh">
@@ -456,15 +456,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="quackcareTitle" translatesAutoresizingMaskIntoConstraints="NO" id="Cwm-ye-pI6">
-                                <rect key="frame" x="-4" y="173" width="414" height="240"/>
+                                <rect key="frame" x="-4" y="138" width="414" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="duckPond" translatesAutoresizingMaskIntoConstraints="NO" id="jSF-oy-M7Y">
-                                <rect key="frame" x="0.0" y="421" width="394" height="284"/>
+                                <rect key="frame" x="0.0" y="391" width="394" height="284"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00u-gp-RCY">
-                                <rect key="frame" x="44" y="44" width="414" height="896"/>
+                                <rect key="frame" x="44" y="41" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
@@ -649,7 +649,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <segue destination="Zhz-dc-X2o" kind="presentation" modalPresentationStyle="fullScreen" id="awe-3J-fvm"/>
+                                    <segue destination="Zhz-dc-X2o" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="awe-3J-fvm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wiL-gP-5bN">
@@ -1471,7 +1471,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="back"/>
                                 <connections>
-                                    <segue destination="Zhz-dc-X2o" kind="presentation" modalPresentationStyle="fullScreen" id="LQ2-Bz-pnp"/>
+                                    <segue destination="Zhz-dc-X2o" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="LQ2-Bz-pnp"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1633,10 +1633,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="D1d-Xl-FbK"/>
-        <segue reference="Uic-dc-s3Y"/>
-        <segue reference="mNy-vM-NT4"/>
-        <segue reference="sPn-NU-pZb"/>
+        <segue reference="LQ2-Bz-pnp"/>
+        <segue reference="0WX-1v-vdt"/>
+        <segue reference="QCZ-Sd-0S6"/>
+        <segue reference="9Jf-Ff-0qX"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Untitled design (6)" width="1080" height="1080"/>
