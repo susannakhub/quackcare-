@@ -1826,24 +1826,36 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="basketball"/>
+                                <connections>
+                                    <action selector="buyBasketballButton:" destination="D2K-LJ-jzt" eventType="touchUpInside" id="tFV-3U-X1b"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mc4-ug-p7S">
                                 <rect key="frame" x="51" y="223" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="cactus"/>
+                                <connections>
+                                    <action selector="buyCactusButton:" destination="D2K-LJ-jzt" eventType="touchUpInside" id="fAg-OB-hpd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSC-0H-IWI">
                                 <rect key="frame" x="226" y="223" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="balloon"/>
+                                <connections>
+                                    <action selector="buyBalloonButton:" destination="D2K-LJ-jzt" eventType="touchUpInside" id="RvA-FR-deb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SHR-um-adG">
                                 <rect key="frame" x="226" y="69" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="beachball"/>
+                                <connections>
+                                    <action selector="buyBeachButton:" destination="D2K-LJ-jzt" eventType="touchUpInside" id="8gU-zf-ZyI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEO-Sd-ElE">
                                 <rect key="frame" x="234" y="367" width="105" height="31"/>
@@ -1851,10 +1863,24 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="buy"/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redballoon" translatesAutoresizingMaskIntoConstraints="NO" id="snQ-RT-uf3">
+                                <rect key="frame" x="102" y="488" width="345" height="287"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="snY-Al-ipY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="balloon" destination="snQ-RT-uf3" id="Aou-2V-Ube"/>
+                        <outlet property="basketball" destination="yoZ-Om-DOR" id="lhg-Pk-LTL"/>
+                        <outlet property="beachball" destination="mD6-Tl-YzC" id="iCr-5v-1Yp"/>
+                        <outlet property="buyBalloon" destination="ZSC-0H-IWI" id="jOe-kc-CmR"/>
+                        <outlet property="buyBasketball" destination="Bej-iw-vlt" id="BYW-qD-e80"/>
+                        <outlet property="buyBeach" destination="SHR-um-adG" id="4el-Qz-0xC"/>
+                        <outlet property="buyCactus" destination="Mc4-ug-p7S" id="Cx0-gs-sjj"/>
+                        <outlet property="cactus" destination="6Dq-cs-Vx0" id="PWH-yM-Wo9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hZ0-Ao-YYI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1885,6 +1911,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="hearts"/>
+                                <connections>
+                                    <action selector="buyHeartsButton:" destination="h1x-mM-3OA" eventType="touchUpInside" id="fHS-me-hor"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFY-CV-ftw">
                                 <rect key="frame" x="53" y="204" width="105" height="31"/>
@@ -1910,6 +1939,10 @@
                         <viewLayoutGuide key="safeArea" id="LRz-T3-YoL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="buyHearts" destination="bkB-Ln-VJC" id="D3Q-Iu-Z4T"/>
+                        <outlet property="hearts" destination="kfu-rv-oK8" id="Hbs-0E-Xgn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mYk-cE-q7f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1917,7 +1950,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="m9h-9W-4NT"/>
+        <segue reference="D1d-Xl-FbK"/>
         <segue reference="Uic-dc-s3Y"/>
         <segue reference="mC6-ib-95S"/>
         <segue reference="AM9-6k-SuK"/>
@@ -1982,6 +2015,7 @@
         <image name="pinkduck" width="560" height="445"/>
         <image name="purpleduck" width="555" height="450"/>
         <image name="quackcareTitle" width="577" height="433"/>
+        <image name="redballoon" width="1080" height="1080"/>
         <image name="sunnies" width="574" height="435"/>
         <image name="toys" width="1181" height="1181"/>
         <image name="untitled8" width="577" height="433"/>

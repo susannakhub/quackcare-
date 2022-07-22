@@ -9,10 +9,17 @@ import UIKit
 
 class moreViewController: UIViewController {
 
+    @IBOutlet weak var buyHearts: UIButton!
+    @IBOutlet weak var hearts: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
+    }
+    
+    
+    @IBAction func buyHeartsButton(_ sender: Any) {
     }
     
 
