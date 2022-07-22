@@ -14,8 +14,14 @@ class HeartViewController: UIViewController {
     var results2 = "goal"
     var results3 = "goal"
     var results4 = "goal"
+    var goalData : [QuackCareCD] = []
     
     var shopVC = ShopViewController()
+//    var goalVC = GoalViewController()
+//    var goalVCOne = GoalOneViewController()
+//    var goalVCTwo = GoalTwoViewController()
+//    var goalVCThree = GoalThreeViewController()
+//    var goalVCFour = GoalFourViewController()
     
     @IBOutlet weak var goalOneLabel: UILabel!
     @IBOutlet weak var goalTwoLabel: UILabel!
@@ -24,11 +30,25 @@ class HeartViewController: UIViewController {
     @IBOutlet weak var goalFiveLabel: UILabel!
     @IBOutlet weak var heartPoints: UILabel!
     
-    
+//    func getGoals() {
+//      if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+//
+//        if let coreDataGoals = try? context.fetch(QuackCareCD.fetchRequest()) as? [QuackCareCD] {
+//                goalData = coreDataGoals
+//               // tableView.reloadData()
+//        }
+//      }
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         displayPoints()
+//        getGoals()
+//        goalOneLabel.text = goalVC.textFieldOne.text!
+//        goalTwoLabel.text = goalVCOne.textFieldTwo.text!
+//        goalThreeLabel.text = goalVCTwo.textFieldThree.text!
+//        goalFourLabel.text = goalVCThree.textFieldFour.text!
+//        goalFiveLabel.text = goalVCFour.textFieldFive.text!
         goalOneLabel.text = results
         goalTwoLabel.text = results1
         goalThreeLabel.text = results2

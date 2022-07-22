@@ -16,7 +16,20 @@ class GoalViewController: UIViewController {
     
     @IBAction func doneButtonOne(_ sender: Any) {
         temp = textFieldOne.text!
-    }
+//        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+//
+//          // we are creating a new ToDoCD object here, naming it toDo
+//          let goalOneData = QuackCareCD(entity: QuackCareCD.entity(), insertInto: context)
+//
+//          // if the titleTextField has text, we will call that text titleText
+//          if let titleText = textFieldOne.text {
+//              goalOneData.goals = titleText
+//              //goalOneData.important = completedButton.isOn
+//          }
+//          try? context.save()
+//        }
+//    }
+//
     
     override func viewDidLoad() {
         super.viewDidLoad()
