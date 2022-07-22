@@ -130,7 +130,9 @@ class WaterViewController: UIViewController {
             Cup6.isHidden = false
             Cup8.isHidden = false
             sign.isHidden = false
+            shopVC.points = shopVC.points + 50
         eightCupsButton.setTitle ("Undo", for: .normal)
+            waterPoints.text = "\(shopVC.points)"
         }
         else {
             Cup2.isHidden = false
@@ -139,13 +141,11 @@ class WaterViewController: UIViewController {
             Cup8.isHidden = true
             sign.isHidden = true
             eightCupsButton.setTitle ("8 Cups", for: .normal)
+            shopVC.points = shopVC.points - 50
+            waterPoints.text = "\(shopVC.points)"
         }
     }
     
-    func displayPoints (){
-        waterPoints.text = "\(shopVC.points)"
-    }
-
 
     
 
