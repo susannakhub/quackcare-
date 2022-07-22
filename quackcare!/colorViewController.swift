@@ -16,12 +16,12 @@ class colorViewController: UIViewController {
     //  Created by Scholar on 7/21/22.
     //
 
-  
+//buttons
         @IBOutlet weak var buyog: UIButton!
-        @IBOutlet weak var buyyellow: UIImageView!
+        @IBOutlet weak var buyyellow: UIButton!
         @IBOutlet weak var buywhite: UIButton!
         @IBOutlet weak var buypink: UIButton!
-        @IBOutlet weak var buyblue: UIImageView!
+    @IBOutlet weak var buyblue: UIButton!
         @IBOutlet weak var buypurple: UIButton!
         @IBOutlet weak var buybrown: UIButton!
         @IBOutlet weak var buylime: UIButton!
@@ -55,8 +55,8 @@ class colorViewController: UIViewController {
         }
         var numPress1 = 1
         
-        @IBAction func buyog(_ sender: Any) {
-            numPress1 = (numPress1 +1)
+        @IBAction func buyogbutton(_ sender: Any) {
+            numPress1 = numPress1 + 1
             if numPress1 % 2 == 0{
                 yellowduck.isHidden = true
                 whiteduck.isHidden = true
@@ -65,7 +65,7 @@ class colorViewController: UIViewController {
                 purpleduck.isHidden = true
                 brownduck.isHidden = true
                 limeduck.isHidden = true
-                ogduck.setTitle("Undo", for: .normal)
+                buyog.setTitle("Undo", for: .normal)
 
             }
             else{
@@ -77,71 +77,107 @@ class colorViewController: UIViewController {
                 purpleduck.isHidden = true
                 brownduck.isHidden = true
                 limeduck.isHidden = true
-                ogduck.setTitle("  ", for: .normal)
+                buyog.setTitle("  ", for: .normal)
                 
             }
         }
         
         var numPress2 = 1
         
-        @IBAction func cowBoyHatButton(_ sender: Any) {
+    @IBAction func buyyellowbutton(_ sender: Any) {
             numPress2 = (numPress2 + 1)
-            if numPress2 % 2 == 0{
-                partyHat1.isHidden = true
-                sunnies.isHidden = true
-                crown1.isHidden = true
-                cowboy.isHidden = false
-                cowboyHat.setTitle(" Undo ", for: .normal)
-                
-            }
-            else {
-                partyHat1.isHidden = true
-                sunnies.isHidden = true
-                crown1.isHidden = true
-                cowboy.isHidden = true
-                cowboyHat.setTitle("  ", for: .normal)
-            }
+        if numPress2 % 2 == 0{
+            ogduck.isHidden = true
+            yellowduck.isHidden = false
+            whiteduck.isHidden = true
+            pinkduck.isHidden = true
+            blueduck.isHidden = true
+            purpleduck.isHidden = true
+            brownduck.isHidden = true
+            limeduck.isHidden = true
+            buyyellow.setTitle(" Undo ", for: .normal)
         }
+        else {
+            ogduck.isHidden = true
+            yellowduck.isHidden = true
+            whiteduck.isHidden = true
+            pinkduck.isHidden = true
+            blueduck.isHidden = true
+            purpleduck.isHidden = true
+            brownduck.isHidden = true
+            limeduck.isHidden = true
+            buyyellow.setTitle ("  ", for: .normal)
+        }
+    }
+
         var numPress3 = 1
         
-        @IBAction func crownHatButton(_ sender: Any) {
+        @IBAction func buywhiteButton(_ sender: Any) {
             numPress3 = (numPress3 + 1)
             if numPress3 % 2 == 0{
-                partyHat1.isHidden = true
-                sunnies.isHidden = true
-                crown1.isHidden = false
-                cowboy.isHidden = true
-                crownHat.setTitle(" Undo ", for: .normal)
+                ogduck.isHidden = true
+                yellowduck.isHidden = true
+                whiteduck.isHidden = false
+                pinkduck.isHidden = true
+                blueduck.isHidden = true
+                purpleduck.isHidden = true
+                brownduck.isHidden = true
+                limeduck.isHidden = true
+                buywhite.setTitle(" Undo ", for: .normal)
                 
             }
             else {
-                partyHat1.isHidden = true
-                sunnies.isHidden = true
-                crown1.isHidden = true
-                cowboy.isHidden = true
-                crownHat.setTitle(" ", for: .normal)
+                ogduck.isHidden = true
+                yellowduck.isHidden = true
+                whiteduck.isHidden = true
+                pinkduck.isHidden = true
+                blueduck.isHidden = true
+                purpleduck.isHidden = true
+                brownduck.isHidden = true
+                limeduck.isHidden = true
+                buywhite.setTitle(" ", for: .normal)
             }
         }
+    
         
-        @IBAction func sunGlassesHat(_ sender: Any) {
-            numPress1 = (numPress1 + 1)
-            if numPress1 % 2 == 0{
-                partyHat1.isHidden = true
-                sunnies.isHidden = false
-                crown1.isHidden = true
-                cowboy.isHidden = true
-                sunglass.setTitle(" Undo ", for: .normal)
-                
-            }
-            else {
-                partyHat1.isHidden = true
-                sunnies.isHidden = true
-                crown1.isHidden = true
-                cowboy.isHidden = true
-                sunglass.setTitle(" ", for: .normal)
-            }
+    
+    @IBAction func buyPink(_ sender: Any) {
+        numPress1 = (numPress1 + 1)
+        if numPress1 % 2 == 0{
+            ogduck.isHidden = true
+            yellowduck.isHidden = true
+            whiteduck.isHidden = true
+            pinkduck.isHidden = false
+            blueduck.isHidden = true
+            purpleduck.isHidden = true
+            brownduck.isHidden = true
+            limeduck.isHidden = true
+            buypink.setTitle(" Undo ", for: .normal)
+            
         }
-        
+        else {
+            ogduck.isHidden = true
+            yellowduck.isHidden = true
+            whiteduck.isHidden = true
+            pinkduck.isHidden = true
+            blueduck.isHidden = true
+            purpleduck.isHidden = true
+            brownduck.isHidden = true
+            limeduck.isHidden = true
+            buypink.setTitle(" ", for: .normal)
+        }
+    }
+
+    @IBAction func buyBlueButton(_ sender: Any) {
+    }
+    @IBAction func buyPurpleButton(_ sender: Any) {
+    }
+    
+    @IBAction func buyBrownButton(_ sender: Any) {
+    }
+    @IBAction func buyLimeButton(_ sender: Any) {
+    }
+    
 
         /*
         // MARK: - Navigation

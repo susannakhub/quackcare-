@@ -972,6 +972,10 @@
                                 <rect key="frame" x="72" y="668" width="271" height="212"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellowduck" translatesAutoresizingMaskIntoConstraints="NO" id="LqA-CH-kzz" userLabel="yellowduck">
+                                <rect key="frame" x="51" y="659" width="302" height="230"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="whiteduck" translatesAutoresizingMaskIntoConstraints="NO" id="9HU-8A-BQf">
                                 <rect key="frame" x="72" y="668" width="271" height="212"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1009,6 +1013,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="original"/>
+                                <connections>
+                                    <action selector="buyogbutton:" destination="YIc-9h-5PS" eventType="touchUpInside" id="pbj-lN-GhE"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buyyellow" translatesAutoresizingMaskIntoConstraints="NO" id="Erg-7G-Ah8">
                                 <rect key="frame" x="159" y="0.0" width="255" height="257"/>
@@ -1023,6 +1030,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="yellow"/>
+                                <connections>
+                                    <action selector="buyyellowbutton:" destination="YIc-9h-5PS" eventType="touchUpInside" id="9cZ-dp-cM5"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buypink" translatesAutoresizingMaskIntoConstraints="NO" id="Eet-Zo-5Zy">
                                 <rect key="frame" x="159" y="140" width="255" height="257"/>
@@ -1033,18 +1043,27 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="white"/>
+                                <connections>
+                                    <action selector="buywhiteButton:" destination="YIc-9h-5PS" eventType="touchUpInside" id="WsL-PF-FIV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAK-Jj-Fpz">
                                 <rect key="frame" x="223" y="209" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="pink"/>
+                                <connections>
+                                    <action selector="buyPink:" destination="YIc-9h-5PS" eventType="touchUpInside" id="8Zd-kK-67m"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5N-CK-Qqk">
                                 <rect key="frame" x="53" y="351" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="blue"/>
+                                <connections>
+                                    <action selector="buyBlueButton:" destination="YIc-9h-5PS" eventType="touchUpInside" id="RaE-Da-Yn1"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buyblue" translatesAutoresizingMaskIntoConstraints="NO" id="Kbh-7E-8fq">
                                 <rect key="frame" x="-14" y="282" width="255" height="257"/>
@@ -1067,6 +1086,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="purple"/>
+                                <connections>
+                                    <action selector="buyPurpleButton:" destination="YIc-9h-5PS" eventType="touchUpInside" id="JHb-EN-QAO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NDs-Ax-59D">
                                 <rect key="frame" x="231" y="629" width="105" height="31"/>
@@ -1079,12 +1101,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="lime"/>
+                                <connections>
+                                    <action selector="buyLimeButton:" destination="YIc-9h-5PS" eventType="touchUpInside" id="OvQ-RD-xdt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRv-1S-tVx">
                                 <rect key="frame" x="53" y="492" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="brown"/>
+                                <connections>
+                                    <action selector="buyBrownButton:" destination="YIc-9h-5PS" eventType="touchUpInside" id="h2a-gr-7RT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYQ-Fe-hLS">
                                 <rect key="frame" x="18" y="831" width="65" height="31"/>
@@ -1107,6 +1135,24 @@
                         <viewLayoutGuide key="safeArea" id="cF3-Yg-qCl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="blueduck" destination="z93-Ks-4ok" id="ggc-zi-rpW"/>
+                        <outlet property="brownduck" destination="C8T-VC-nMH" id="axk-3W-vou"/>
+                        <outlet property="buyblue" destination="M5N-CK-Qqk" id="hQV-P1-lpf"/>
+                        <outlet property="buybrown" destination="ZRv-1S-tVx" id="tbV-iN-4BF"/>
+                        <outlet property="buylime" destination="u7y-Kd-hXz" id="LC5-sv-xNN"/>
+                        <outlet property="buyog" destination="aaD-A1-Ddc" id="fOh-Zu-PtE"/>
+                        <outlet property="buypink" destination="bAK-Jj-Fpz" id="CN7-Nk-qnW"/>
+                        <outlet property="buypurple" destination="Kw2-CD-Mas" id="JLh-DQ-vaf"/>
+                        <outlet property="buywhite" destination="bLs-WU-Z04" id="iZY-Kn-r4H"/>
+                        <outlet property="buyyellow" destination="bK8-xN-GoR" id="haX-kg-848"/>
+                        <outlet property="limeduck" destination="Qge-67-pDm" id="Jii-a8-wa8"/>
+                        <outlet property="ogduck" destination="NeR-Dk-pP1" id="Q08-YR-qKz"/>
+                        <outlet property="pinkduck" destination="z5S-Qq-rc3" id="r1f-q8-Vu1"/>
+                        <outlet property="purpleduck" destination="wot-D5-Lb4" id="H9s-9u-wY9"/>
+                        <outlet property="whiteduck" destination="9HU-8A-BQf" id="9vX-0G-n5l"/>
+                        <outlet property="yellowduck" destination="LqA-CH-kzz" id="vXI-I0-1Cb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Veb-IV-qDA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1666,9 +1712,9 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="m9h-9W-4NT"/>
-        <segue reference="0WX-1v-vdt"/>
-        <segue reference="QCZ-Sd-0S6"/>
-        <segue reference="9Jf-Ff-0qX"/>
+        <segue reference="Uic-dc-s3Y"/>
+        <segue reference="mC6-ib-95S"/>
+        <segue reference="AM9-6k-SuK"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Untitled design (6)" width="1080" height="1080"/>
@@ -1737,6 +1783,7 @@
         <image name="water2" width="3000" height="3000"/>
         <image name="water3" width="3000" height="3000"/>
         <image name="whiteduck" width="562" height="444"/>
+        <image name="yellowduck" width="554" height="451"/>
         <image name="yellowducktransparents" width="561" height="445"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
