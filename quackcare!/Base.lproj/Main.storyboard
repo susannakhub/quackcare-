@@ -652,7 +652,7 @@
                                         <rect key="frame" x="10" y="1137" width="370" height="306"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <attributedString key="attributedText">
-                                            <fragment content="dkrgdsjgkf">
+                                            <fragment content="input your health goals custom to you!">
                                                 <attributes>
                                                     <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                     <font key="NSFont" size="18" name="Menlo-Regular"/>
@@ -1946,7 +1946,7 @@
         <segue reference="bWG-8Z-SCi"/>
         <segue reference="0WX-1v-vdt"/>
         <segue reference="NOj-5J-rvU"/>
-        <segue reference="s4E-Nz-Tuv"/>
+        <segue reference="Vaj-48-g9h"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Untitled design (6)" width="1080" height="1080"/>
