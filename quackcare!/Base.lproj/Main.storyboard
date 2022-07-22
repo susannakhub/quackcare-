@@ -384,12 +384,10 @@
                         <color key="backgroundColor" red="0.83722749312066302" green="0.88337127108994284" blue="0.96841138601303101" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
-                        <outlet property="goalFiveLabel" destination="kot-qF-CJM" id="EMs-mJ-M9e"/>
                         <outlet property="goalFourLabel" destination="WSK-rv-4TU" id="CzY-e0-Y0L"/>
                         <outlet property="goalOneLabel" destination="hch-1n-tQL" id="aWE-o2-ydO"/>
                         <outlet property="goalThreeLabel" destination="Alu-Lq-0n8" id="qE5-lx-vo1"/>
                         <outlet property="goalTwoLabel" destination="oec-Fc-kG8" id="XmS-vv-ORV"/>
-                        <outlet property="heartPoints" destination="ryp-FZ-NIY" id="psB-OM-U2U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ku5-qO-6qB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1970,11 +1968,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="7Dc-ZB-AMS"/>
-        <segue reference="bWG-8Z-SCi"/>
-        <segue reference="0WX-1v-vdt"/>
+        <segue reference="0ET-aN-ZyS"/>
+        <segue reference="6Ij-hc-ald"/>
         <segue reference="QCZ-Sd-0S6"/>
-        <segue reference="Vaj-48-g9h"/>
+        <segue reference="s4E-Nz-Tuv"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Untitled design (6)" width="1080" height="1080"/>
