@@ -43,6 +43,76 @@ class HatsViewController: UIViewController {
     }
     var numPress1 = 1
     
+    @IBAction func partyHatButton(_ sender: Any) {
+        numPress1 = (numPress1 + 1)
+        if numPress1 % 2 == 0{
+            partyHat1.isHidden = false
+            sunnies.isHidden = true
+            crown1.isHidden = true
+            cowboy.isHidden = true
+            
+        }
+        else {
+            partyHat1.isHidden = true
+            sunnies.isHidden = true
+            crown1.isHidden = true  
+            cowboy.isHidden = true
+        }
+    }
+    var numPress2 = 1
+    @IBAction func cowBoyHatButton(_ sender: Any) {
+        numPress2 = (numPress2 + 1)
+        if numPress2 % 2 == 0{
+            partyHat1.isHidden = true
+            sunnies.isHidden = true
+            crown1.isHidden = true
+            cowboy.isHidden = false
+            
+        }
+        else {
+            partyHat1.isHidden = true
+            sunnies.isHidden = true
+            crown1.isHidden = true
+            cowboy.isHidden = true
+        }
+    }
+    var numPress3 = 1
+    
+    @IBAction func crownHatButton(_ sender: Any) {
+        numPress3 = (numPress3 + 1)
+        if numPress3 % 2 == 0{
+            partyHat1.isHidden = true
+            sunnies.isHidden = true
+            crown1.isHidden = false
+            cowboy.isHidden = true
+            
+        }
+        else {
+            partyHat1.isHidden = true
+            sunnies.isHidden = true
+            crown1.isHidden = true
+            cowboy.isHidden = true
+        }
+    }
+    
+    @IBAction func sunGlassesHat(_ sender: Any) {
+        numPress1 = (numPress1 + 1)
+        if numPress1 % 2 == 0{
+            partyHat1.isHidden = true
+            sunnies.isHidden = false
+            crown1.isHidden = true
+            cowboy.isHidden = true
+            
+        }
+        else {
+            partyHat1.isHidden = true
+            sunnies.isHidden = true
+            crown1.isHidden = true
+            cowboy.isHidden = true
+        }
+    }
+    
+    
     
 
     /*

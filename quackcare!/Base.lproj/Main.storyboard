@@ -885,7 +885,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="        "/>
                                 <connections>
                                     <action selector="buyPartyHat:" destination="Yvj-tl-Zg5" eventType="touchUpInside" id="d7C-Jr-JiS"/>
-                                    <action selector="partyHat:" destination="Yvj-tl-Zg5" eventType="touchUpInside" id="w1e-HI-ENg"/>
+                                    <action selector="partyHatButton:" destination="Yvj-tl-Zg5" eventType="touchUpInside" id="63c-N6-r8k"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1s-mj-syP">
@@ -893,18 +893,27 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="                        "/>
+                                <connections>
+                                    <action selector="cowBoyHatButton:" destination="Yvj-tl-Zg5" eventType="touchUpInside" id="6gW-6j-Uvq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nFP-bR-D4S">
                                 <rect key="frame" x="228" y="229" width="120" height="126"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="                           "/>
+                                <connections>
+                                    <action selector="crownHatButton:" destination="Yvj-tl-Zg5" eventType="touchUpInside" id="vrp-XN-Pjc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOS-Up-mYo">
                                 <rect key="frame" x="226" y="77" width="120" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="              "/>
+                                <connections>
+                                    <action selector="sunGlassesHat:" destination="Yvj-tl-Zg5" eventType="touchUpInside" id="byS-T2-dCQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEJ-ia-hUu">
                                 <rect key="frame" x="235" y="370" width="105" height="31"/>
