@@ -231,20 +231,6 @@
                                 </attributedString>
                                 <color key="highlightedColor" red="0.96841138599999999" green="0.82746576650000003" blue="0.95846613520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kot-qF-CJM">
-                                <rect key="frame" x="36" y="702" width="295" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.85034963210000003" blue="0.99599061160000002" alpha="0.63032905630000002" colorSpace="custom" customColorSpace="displayP3"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="  goal">
-                                        <attributes>
-                                            <font key="NSFont" size="25" name="Rockwell-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <color key="highlightedColor" red="0.96841138599999999" green="0.82746576650000003" blue="0.95846613520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sbG-qg-4g1">
                                 <rect key="frame" x="339" y="444" width="41" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -260,6 +246,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
+                                    <action selector="addTwoTapped:" destination="arx-mP-sch" eventType="touchUpInside" id="IOt-Gf-VDh"/>
                                     <segue destination="EC5-FX-XPw" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="zTs-TN-YEo"/>
                                 </connections>
                             </button>
@@ -278,6 +265,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
+                                    <action selector="addThreeTapped:" destination="arx-mP-sch" eventType="touchUpInside" id="Y4d-PF-EDG"/>
                                     <segue destination="V0X-Kl-UUj" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Y4z-mt-c2g"/>
                                 </connections>
                             </button>
@@ -296,25 +284,8 @@
                                     </attributedString>
                                 </state>
                                 <connections>
+                                    <action selector="addFourTapped:" destination="arx-mP-sch" eventType="touchUpInside" id="Vgh-rS-YUQ"/>
                                     <segue destination="yMU-gA-oKL" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Ykn-zD-lzK"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VIF-kp-h2i">
-                                <rect key="frame" x="339" y="712" width="41" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="+">
-                                            <attributes>
-                                                <font key="NSFont" size="45" name="Helvetica"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <segue destination="VcG-rw-k4V" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="drf-Xo-ypa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QVz-lZ-F2D">
@@ -369,6 +340,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
+                                    <action selector="addOneTapped:" destination="arx-mP-sch" eventType="touchUpInside" id="Fg3-eq-xZ9"/>
                                     <segue destination="OSN-8G-2t0" kind="presentation" modalPresentationStyle="fullScreen" id="FOL-Fh-afZ"/>
                                 </connections>
                             </button>
@@ -379,6 +351,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="type here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XuB-Wk-qig">
+                                <rect key="frame" x="55" y="729" width="304" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wwr-UB-r8f"/>
                         <color key="backgroundColor" red="0.83722749312066302" green="0.88337127108994284" blue="0.96841138601303101" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -388,6 +366,7 @@
                         <outlet property="goalOneLabel" destination="hch-1n-tQL" id="aWE-o2-ydO"/>
                         <outlet property="goalThreeLabel" destination="Alu-Lq-0n8" id="qE5-lx-vo1"/>
                         <outlet property="goalTwoLabel" destination="oec-Fc-kG8" id="XmS-vv-ORV"/>
+                        <outlet property="textField" destination="XuB-Wk-qig" id="7uY-Ly-Wp1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ku5-qO-6qB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
