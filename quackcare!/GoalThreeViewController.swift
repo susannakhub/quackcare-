@@ -28,7 +28,7 @@ class GoalThreeViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let newVC = segue.destination as! HeartViewController
-        newVC.results3 = temp3
+//        newVC.results3 = temp3
     }
     
     //haha

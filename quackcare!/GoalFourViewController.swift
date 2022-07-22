@@ -28,8 +28,8 @@ class GoalFourViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let newVC = segue.destination as! HeartViewController
-        newVC.results4 = temp4
-    
+//        newVC.results4 = temp4
+//    
 
     /*
     // MARK: - Navigation
