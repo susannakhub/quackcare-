@@ -15,7 +15,7 @@ class moreViewController: UIViewController {
         super.viewDidLoad()
         
 
-        // Do any additional setup after loading the view.
+        // Do any additional setup after loadkj ipbiuing the view.
     }
     
     
