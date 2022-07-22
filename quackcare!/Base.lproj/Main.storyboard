@@ -247,7 +247,6 @@
                                 </state>
                                 <connections>
                                     <action selector="addTwoTapped:" destination="arx-mP-sch" eventType="touchUpInside" id="IOt-Gf-VDh"/>
-                                    <segue destination="EC5-FX-XPw" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="zTs-TN-YEo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Krl-RV-QfK">
@@ -266,7 +265,6 @@
                                 </state>
                                 <connections>
                                     <action selector="addThreeTapped:" destination="arx-mP-sch" eventType="touchUpInside" id="Y4d-PF-EDG"/>
-                                    <segue destination="V0X-Kl-UUj" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Y4z-mt-c2g"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jDb-D4-mbH">
@@ -285,7 +283,6 @@
                                 </state>
                                 <connections>
                                     <action selector="addFourTapped:" destination="arx-mP-sch" eventType="touchUpInside" id="Vgh-rS-YUQ"/>
-                                    <segue destination="yMU-gA-oKL" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Ykn-zD-lzK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QVz-lZ-F2D">
@@ -341,7 +338,6 @@
                                 </state>
                                 <connections>
                                     <action selector="addOneTapped:" destination="arx-mP-sch" eventType="touchUpInside" id="Fg3-eq-xZ9"/>
-                                    <segue destination="OSN-8G-2t0" kind="presentation" modalPresentationStyle="fullScreen" id="FOL-Fh-afZ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="points" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ryp-FZ-NIY">
@@ -1947,9 +1943,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="0ET-aN-ZyS"/>
-        <segue reference="6Ij-hc-ald"/>
-        <segue reference="QCZ-Sd-0S6"/>
+        <segue reference="bWG-8Z-SCi"/>
+        <segue reference="0WX-1v-vdt"/>
+        <segue reference="NOj-5J-rvU"/>
         <segue reference="s4E-Nz-Tuv"/>
     </inferredMetricsTieBreakers>
     <resources>
