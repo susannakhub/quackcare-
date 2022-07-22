@@ -44,7 +44,6 @@ class WaterViewController: UIViewController {
         Cup6.isHidden = true
         Cup8.isHidden = true
         sign.isHidden = true
-        displayPoints()
     }
     
     var pressedNum = 1

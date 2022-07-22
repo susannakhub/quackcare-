@@ -28,7 +28,7 @@ class GoalTwoViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let newVC = segue.destination as! HeartViewController
-        newVC.results2 = temp2
+//        newVC.results2 = temp2
     }
 
     /*

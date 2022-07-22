@@ -221,20 +221,6 @@
                                 </attributedString>
                                 <color key="highlightedColor" red="0.96841138599999999" green="0.82746576650000003" blue="0.95846613520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kot-qF-CJM">
-                                <rect key="frame" x="36" y="702" width="295" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.85034963210000003" blue="0.99599061160000002" alpha="0.63032905630000002" colorSpace="custom" customColorSpace="displayP3"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="  goal">
-                                        <attributes>
-                                            <font key="NSFont" size="25" name="Rockwell-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <color key="highlightedColor" red="0.96841138599999999" green="0.82746576650000003" blue="0.95846613520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sbG-qg-4g1">
                                 <rect key="frame" x="339" y="444" width="41" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -250,7 +236,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="EC5-FX-XPw" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="zTs-TN-YEo"/>
+                                    <action selector="addTwoTapped:" destination="arx-mP-sch" eventType="touchUpInside" id="dq7-6B-NRJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Krl-RV-QfK">
@@ -268,7 +254,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="V0X-Kl-UUj" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Y4z-mt-c2g"/>
+                                    <action selector="addThreeTapped:" destination="arx-mP-sch" eventType="touchUpInside" id="qAM-2b-nzr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jDb-D4-mbH">
@@ -286,25 +272,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="yMU-gA-oKL" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Ykn-zD-lzK"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VIF-kp-h2i">
-                                <rect key="frame" x="339" y="712" width="41" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="+">
-                                            <attributes>
-                                                <font key="NSFont" size="45" name="Helvetica"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <segue destination="VcG-rw-k4V" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="drf-Xo-ypa"/>
+                                    <action selector="addFourTapped:" destination="arx-mP-sch" eventType="touchUpInside" id="Xkw-jn-kcn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QVz-lZ-F2D">
@@ -359,7 +327,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="OSN-8G-2t0" kind="presentation" modalPresentationStyle="fullScreen" id="FOL-Fh-afZ"/>
+                                    <action selector="addOneTapped:" destination="arx-mP-sch" eventType="touchUpInside" id="wfo-d5-xdf"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="points" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ryp-FZ-NIY">
@@ -369,17 +337,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x4k-b3-3I3">
+                                <rect key="frame" x="83" y="715" width="216" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wwr-UB-r8f"/>
                         <color key="backgroundColor" red="0.83722749312066302" green="0.88337127108994284" blue="0.96841138601303101" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
-                        <outlet property="goalFiveLabel" destination="kot-qF-CJM" id="EMs-mJ-M9e"/>
-                        <outlet property="goalFourLabel" destination="WSK-rv-4TU" id="CzY-e0-Y0L"/>
-                        <outlet property="goalOneLabel" destination="hch-1n-tQL" id="aWE-o2-ydO"/>
-                        <outlet property="goalThreeLabel" destination="Alu-Lq-0n8" id="qE5-lx-vo1"/>
-                        <outlet property="goalTwoLabel" destination="oec-Fc-kG8" id="XmS-vv-ORV"/>
-                        <outlet property="heartPoints" destination="ryp-FZ-NIY" id="psB-OM-U2U"/>
+                        <outlet property="goalFourLabel" destination="WSK-rv-4TU" id="dR9-XK-Abf"/>
+                        <outlet property="goalOneLabel" destination="hch-1n-tQL" id="Ccx-s1-Sh2"/>
+                        <outlet property="goalThreeLabel" destination="Alu-Lq-0n8" id="diR-z5-8jI"/>
+                        <outlet property="goalTwoLabel" destination="oec-Fc-kG8" id="kmX-fN-jZQ"/>
+                        <outlet property="textField" destination="x4k-b3-3I3" id="426-nh-5O7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ku5-qO-6qB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -497,14 +470,14 @@
         <scene sceneID="Hh8-TD-8SN">
             <objects>
                 <viewController id="3bE-1l-3vM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="REg-k5-YZq">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="REg-k5-YZq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="szk-Q5-Qkd">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="szk-Q5-Qkd">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xkO-1k-b0K">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xkO-1k-b0K">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ApM-ut-Xfk">
@@ -1950,10 +1923,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="D1d-Xl-FbK"/>
-        <segue reference="Uic-dc-s3Y"/>
-        <segue reference="mC6-ib-95S"/>
-        <segue reference="AM9-6k-SuK"/>
+        <segue reference="0ET-aN-ZyS"/>
+        <segue reference="6Ij-hc-ald"/>
+        <segue reference="QCZ-Sd-0S6"/>
+        <segue reference="s4E-Nz-Tuv"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Untitled design (6)" width="1080" height="1080"/>

@@ -9,13 +9,13 @@ import UIKit
 
 class GoalViewController: UIViewController {
     
-    var heartVC = HeartViewController()
-    var temp = ""
-
-    @IBOutlet weak var textFieldOne: UITextField!
-    
-    @IBAction func doneButtonOne(_ sender: Any) {
-        temp = textFieldOne.text!
+//    var heartVC = HeartViewController()
+//    var temp = ""
+//
+//    @IBOutlet weak var textFieldOne: UITextField!
+//
+//    @IBAction func doneButtonOne(_ sender: Any) {
+//        temp = textFieldOne.text!
 //        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
 //
 //          // we are creating a new ToDoCD object here, naming it toDo
@@ -29,27 +29,27 @@ class GoalViewController: UIViewController {
 //          try? context.save()
 //        }
     }
+////
 //
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//
+//        // Do any additional setup after loading the view.
+//    }
+//
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        let newVC = segue.destination as! HeartViewController
+////        newVC.results = temp
+//    }
+//
+//    /*
+//    // MARK: - Navigation
 
-        // Do any additional setup after loading the view.
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let newVC = segue.destination as! HeartViewController
-        newVC.results = temp
-    }
+//    // In a storyboard-based application, you will often want to do a little preparation before navigation
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        // Get the new view controller using segue.destination.
+//        // Pass the selected object to the new view controller.
+//    }
+//    */
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}
+//}
