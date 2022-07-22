@@ -121,6 +121,16 @@
                                 <rect key="frame" x="10" y="465" width="404" height="297"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Foj-or-23b">
+                                <rect key="frame" x="280" y="44" width="117" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="user guide"/>
+                                <connections>
+                                    <segue destination="3bE-1l-3vM" kind="presentation" modalPresentationStyle="fullScreen" id="7Dc-ZB-AMS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mkn-QI-fwQ"/>
                         <color key="backgroundColor" red="0.81665394245941247" green="0.91518702651515149" blue="0.69481461300252867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -497,14 +507,14 @@
         <scene sceneID="Hh8-TD-8SN">
             <objects>
                 <viewController id="3bE-1l-3vM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="REg-k5-YZq">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="REg-k5-YZq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="szk-Q5-Qkd">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="szk-Q5-Qkd">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xkO-1k-b0K">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xkO-1k-b0K">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ApM-ut-Xfk">
@@ -617,6 +627,16 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oNi-95-ibQ">
+                                                <rect key="frame" x="26" y="31" width="71" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted" title="back"/>
+                                                <connections>
+                                                    <segue destination="3pn-5A-YUA" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Vaj-48-g9h"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.99858975438971609" blue="0.91025090675360099" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -697,7 +717,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l2p-mk-QSX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="696" y="-1127"/>
+            <point key="canvasLocation" x="695.6521739130435" y="-1127.0089285714284"/>
         </scene>
         <!--Water View Controller-->
         <scene sceneID="tLH-t8-vRl">
@@ -1950,10 +1970,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="D1d-Xl-FbK"/>
-        <segue reference="Uic-dc-s3Y"/>
-        <segue reference="Gz6-0d-ah9"/>
-        <segue reference="AM9-6k-SuK"/>
+        <segue reference="7Dc-ZB-AMS"/>
+        <segue reference="bWG-8Z-SCi"/>
+        <segue reference="0WX-1v-vdt"/>
+        <segue reference="QCZ-Sd-0S6"/>
+        <segue reference="Vaj-48-g9h"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Untitled design (6)" width="1080" height="1080"/>
@@ -2025,6 +2046,9 @@
         <image name="whiteduck" width="562" height="444"/>
         <image name="yellowduck" width="554" height="451"/>
         <image name="yellowducktransparents" width="561" height="445"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
