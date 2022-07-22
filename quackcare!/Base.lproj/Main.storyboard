@@ -1433,36 +1433,54 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="bandanabutton"/>
+                                <connections>
+                                    <action selector="bandana:" destination="ZKq-Md-B7M" eventType="touchUpInside" id="OOU-Q5-fkc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tif-Jh-e77">
                                 <rect key="frame" x="226" y="70" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="blackbutton"/>
+                                <connections>
+                                    <action selector="black:" destination="ZKq-Md-B7M" eventType="touchUpInside" id="5fj-VS-jeB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RX1-qF-KuB">
                                 <rect key="frame" x="59" y="222" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="bluebutton"/>
+                                <connections>
+                                    <action selector="blue:" destination="ZKq-Md-B7M" eventType="touchUpInside" id="IwR-NM-4CK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFC-rK-aDh">
                                 <rect key="frame" x="226" y="222" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="orangebutton"/>
+                                <connections>
+                                    <action selector="orange:" destination="ZKq-Md-B7M" eventType="touchUpInside" id="hyD-kG-sAv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N5H-gk-yjp">
                                 <rect key="frame" x="59" y="379" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="greenbutton"/>
+                                <connections>
+                                    <action selector="green:" destination="ZKq-Md-B7M" eventType="touchUpInside" id="DNg-mp-Tkn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="geN-F8-fll">
                                 <rect key="frame" x="226" y="379" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="scarfbutton"/>
+                                <connections>
+                                    <action selector="scarf:" destination="ZKq-Md-B7M" eventType="touchUpInside" id="zel-M2-TMG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0s-Ii-c0T">
                                 <rect key="frame" x="20" y="831" width="65" height="31"/>
@@ -1478,6 +1496,20 @@
                         <viewLayoutGuide key="safeArea" id="URz-k4-XtW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="Bandana" destination="NUz-0T-9G7" id="hGZ-nN-Nyp"/>
+                        <outlet property="BlueTie" destination="EdX-wg-gSh" id="ILy-tX-DSZ"/>
+                        <outlet property="bandanabutton" destination="Evn-uf-HLm" id="3GA-zS-91s"/>
+                        <outlet property="blackTie" destination="aqU-QW-jZN" id="FcY-Vf-Z4E"/>
+                        <outlet property="blackTieButton" destination="Tif-Jh-e77" id="ErO-4n-4q9"/>
+                        <outlet property="blueScarf" destination="AJl-6T-2zl" id="m6a-ld-qcB"/>
+                        <outlet property="blueTieButton" destination="RX1-qF-KuB" id="a0e-Vg-P6Y"/>
+                        <outlet property="greenTie" destination="vaN-yP-GyP" id="mK8-k6-rSd"/>
+                        <outlet property="greenTieButton" destination="N5H-gk-yjp" id="G9y-03-cOF"/>
+                        <outlet property="orangeTie" destination="ARY-CL-tNh" id="C7J-mZ-Qfn"/>
+                        <outlet property="orangeTieButton" destination="kFC-rK-aDh" id="tPN-uv-52v"/>
+                        <outlet property="scarfButton" destination="geN-F8-fll" id="aLJ-AZ-Rge"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vHc-mA-ose" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
