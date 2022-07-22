@@ -905,26 +905,6 @@
                                 <rect key="frame" x="-7" y="-119" width="428" height="1093"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hats" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I4q-y0-EiO">
-                                <rect key="frame" x="-212" y="-110" width="856" height="617"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="neckwear" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lHB-Cb-F5k">
-                                <rect key="frame" x="-212" y="16" width="856" height="617"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="toys" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4jI-jj-jo1">
-                                <rect key="frame" x="-212" y="277" width="856" height="617"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="color" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mFx-Cs-EzS">
-                                <rect key="frame" x="-221" y="156" width="856" height="617"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="more" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4J1-pJ-ubO">
-                                <rect key="frame" x="-212" y="417" width="856" height="617"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="meM-Mr-1fH">
                                 <rect key="frame" x="74" y="167" width="284" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -970,6 +950,26 @@
                                     <segue destination="h1x-mM-3OA" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Sd1-dW-b99"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hats" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I4q-y0-EiO">
+                                <rect key="frame" x="-212" y="-110" width="856" height="617"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="neckwear" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lHB-Cb-F5k">
+                                <rect key="frame" x="-212" y="16" width="856" height="617"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="color" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mFx-Cs-EzS">
+                                <rect key="frame" x="-221" y="156" width="856" height="617"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="toys" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4jI-jj-jo1">
+                                <rect key="frame" x="-212" y="277" width="856" height="617"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="more" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4J1-pJ-ubO">
+                                <rect key="frame" x="-212" y="417" width="856" height="617"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvg-1q-ykL">
                                 <rect key="frame" x="3" y="822" width="414" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1206,10 +1206,6 @@
                                 <rect key="frame" x="72" y="668" width="281" height="218"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buy" translatesAutoresizingMaskIntoConstraints="NO" id="jed-AM-gWZ">
-                                <rect key="frame" x="88" y="487" width="396" height="301"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buyog" translatesAutoresizingMaskIntoConstraints="NO" id="gyL-Mu-yJG">
                                 <rect key="frame" x="-14" y="0.0" width="255" height="257"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1218,7 +1214,7 @@
                                 <rect key="frame" x="53" y="69" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="original"/>
+                                <buttonConfiguration key="configuration" style="gray" title="   "/>
                                 <connections>
                                     <action selector="buyogbutton:" destination="YIc-9h-5PS" eventType="touchUpInside" id="pbj-lN-GhE"/>
                                 </connections>
@@ -1235,10 +1231,16 @@
                                 <rect key="frame" x="229" y="69" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="yellow"/>
+                                <buttonConfiguration key="configuration" style="gray" title="    "/>
                                 <connections>
                                     <action selector="buyyellowbutton:" destination="YIc-9h-5PS" eventType="touchUpInside" id="9cZ-dp-cM5"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NDs-Ax-59D">
+                                <rect key="frame" x="231" y="629" width="105" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="buy"/>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buypink" translatesAutoresizingMaskIntoConstraints="NO" id="Eet-Zo-5Zy">
                                 <rect key="frame" x="159" y="140" width="255" height="257"/>
@@ -1248,7 +1250,7 @@
                                 <rect key="frame" x="53" y="209" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="white"/>
+                                <buttonConfiguration key="configuration" style="gray" title=" "/>
                                 <connections>
                                     <action selector="buywhiteButton:" destination="YIc-9h-5PS" eventType="touchUpInside" id="WsL-PF-FIV"/>
                                 </connections>
@@ -1257,7 +1259,7 @@
                                 <rect key="frame" x="223" y="209" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="pink"/>
+                                <buttonConfiguration key="configuration" style="gray" title=" "/>
                                 <connections>
                                     <action selector="buyPink:" destination="YIc-9h-5PS" eventType="touchUpInside" id="8Zd-kK-67m"/>
                                 </connections>
@@ -1291,31 +1293,29 @@
                                 <rect key="frame" x="223" y="351" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="purple"/>
+                                <buttonConfiguration key="configuration" style="gray" title="   "/>
                                 <connections>
                                     <action selector="buyPurpleButton:" destination="YIc-9h-5PS" eventType="touchUpInside" id="JHb-EN-QAO"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NDs-Ax-59D">
-                                <rect key="frame" x="231" y="629" width="105" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="buy"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7y-Kd-hXz">
                                 <rect key="frame" x="223" y="492" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="lime"/>
+                                <buttonConfiguration key="configuration" style="gray" title="   "/>
                                 <connections>
                                     <action selector="buyLimeButton:" destination="YIc-9h-5PS" eventType="touchUpInside" id="OvQ-RD-xdt"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buy" translatesAutoresizingMaskIntoConstraints="NO" id="jed-AM-gWZ">
+                                <rect key="frame" x="88" y="487" width="396" height="301"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRv-1S-tVx">
                                 <rect key="frame" x="53" y="492" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="brown"/>
+                                <buttonConfiguration key="configuration" style="gray" title="   "/>
                                 <connections>
                                     <action selector="buyBrownButton:" destination="YIc-9h-5PS" eventType="touchUpInside" id="h2a-gr-7RT"/>
                                 </connections>
@@ -1642,20 +1642,14 @@
                                 <rect key="frame" x="159" y="0.0" width="255" height="257"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellowducktransparents" translatesAutoresizingMaskIntoConstraints="NO" id="gp6-di-5rq">
-                                <rect key="frame" x="28" y="597" width="349" height="262"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buy" translatesAutoresizingMaskIntoConstraints="NO" id="ecV-aU-hLf">
                                 <rect key="frame" x="88" y="377" width="396" height="301"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcv-8U-Y0o">
-                                <rect key="frame" x="234" y="519" width="105" height="31"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellowducktransparents" translatesAutoresizingMaskIntoConstraints="NO" id="gp6-di-5rq">
+                                <rect key="frame" x="28" y="597" width="349" height="262"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="buy"/>
-                            </button>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blacktie" translatesAutoresizingMaskIntoConstraints="NO" id="aqU-QW-jZN">
                                 <rect key="frame" x="0.0" y="633" width="346" height="205"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1684,7 +1678,7 @@
                                 <rect key="frame" x="59" y="70" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="bandanabutton"/>
+                                <buttonConfiguration key="configuration" style="gray" title="          "/>
                                 <connections>
                                     <action selector="bandana:" destination="ZKq-Md-B7M" eventType="touchUpInside" id="OOU-Q5-fkc"/>
                                 </connections>
@@ -1693,7 +1687,7 @@
                                 <rect key="frame" x="226" y="70" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="blackbutton"/>
+                                <buttonConfiguration key="configuration" style="gray" title="         "/>
                                 <connections>
                                     <action selector="black:" destination="ZKq-Md-B7M" eventType="touchUpInside" id="5fj-VS-jeB"/>
                                 </connections>
@@ -1702,16 +1696,22 @@
                                 <rect key="frame" x="59" y="222" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="bluebutton"/>
+                                <buttonConfiguration key="configuration" style="gray" title="      "/>
                                 <connections>
                                     <action selector="blue:" destination="ZKq-Md-B7M" eventType="touchUpInside" id="IwR-NM-4CK"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcv-8U-Y0o">
+                                <rect key="frame" x="234" y="519" width="105" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="    "/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFC-rK-aDh">
                                 <rect key="frame" x="226" y="222" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="orangebutton"/>
+                                <buttonConfiguration key="configuration" style="gray" title="     "/>
                                 <connections>
                                     <action selector="orange:" destination="ZKq-Md-B7M" eventType="touchUpInside" id="hyD-kG-sAv"/>
                                 </connections>
@@ -1720,7 +1720,7 @@
                                 <rect key="frame" x="59" y="379" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="greenbutton"/>
+                                <buttonConfiguration key="configuration" style="gray" title=" "/>
                                 <connections>
                                     <action selector="green:" destination="ZKq-Md-B7M" eventType="touchUpInside" id="DNg-mp-Tkn"/>
                                 </connections>
@@ -1729,7 +1729,7 @@
                                 <rect key="frame" x="226" y="379" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="scarfbutton"/>
+                                <buttonConfiguration key="configuration" style="gray" title=" "/>
                                 <connections>
                                     <action selector="scarf:" destination="ZKq-Md-B7M" eventType="touchUpInside" id="zel-M2-TMG"/>
                                 </connections>
@@ -1793,6 +1793,12 @@
                                 <rect key="frame" x="-16" y="0.0" width="255" height="257"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEO-Sd-ElE">
+                                <rect key="frame" x="234" y="367" width="105" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="buy"/>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buycactus" translatesAutoresizingMaskIntoConstraints="NO" id="IhA-fN-YdE">
                                 <rect key="frame" x="-16" y="154" width="255" height="257"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1813,6 +1819,10 @@
                                 <rect key="frame" x="125" y="668" width="322" height="235"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redballoon" translatesAutoresizingMaskIntoConstraints="NO" id="snQ-RT-uf3">
+                                <rect key="frame" x="102" y="488" width="345" height="287"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buyballoon" translatesAutoresizingMaskIntoConstraints="NO" id="BiI-en-dCM">
                                 <rect key="frame" x="122" y="151" width="329" height="262"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1825,7 +1835,7 @@
                                 <rect key="frame" x="51" y="69" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="basketball"/>
+                                <buttonConfiguration key="configuration" style="gray" title=" "/>
                                 <connections>
                                     <action selector="buyBasketballButton:" destination="D2K-LJ-jzt" eventType="touchUpInside" id="tFV-3U-X1b"/>
                                 </connections>
@@ -1834,7 +1844,7 @@
                                 <rect key="frame" x="51" y="223" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="cactus"/>
+                                <buttonConfiguration key="configuration" style="gray" title=" "/>
                                 <connections>
                                     <action selector="buyCactusButton:" destination="D2K-LJ-jzt" eventType="touchUpInside" id="fAg-OB-hpd"/>
                                 </connections>
@@ -1843,7 +1853,7 @@
                                 <rect key="frame" x="226" y="223" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="balloon"/>
+                                <buttonConfiguration key="configuration" style="gray" title=" "/>
                                 <connections>
                                     <action selector="buyBalloonButton:" destination="D2K-LJ-jzt" eventType="touchUpInside" id="RvA-FR-deb"/>
                                 </connections>
@@ -1852,21 +1862,11 @@
                                 <rect key="frame" x="226" y="69" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="beachball"/>
+                                <buttonConfiguration key="configuration" style="gray" title=" "/>
                                 <connections>
                                     <action selector="buyBeachButton:" destination="D2K-LJ-jzt" eventType="touchUpInside" id="8gU-zf-ZyI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEO-Sd-ElE">
-                                <rect key="frame" x="234" y="367" width="105" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="buy"/>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redballoon" translatesAutoresizingMaskIntoConstraints="NO" id="snQ-RT-uf3">
-                                <rect key="frame" x="102" y="488" width="345" height="287"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="snY-Al-ipY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1902,6 +1902,12 @@
                                 <rect key="frame" x="-22" y="0.0" width="255" height="257"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFY-CV-ftw">
+                                <rect key="frame" x="53" y="204" width="105" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="buy"/>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buy" translatesAutoresizingMaskIntoConstraints="NO" id="eZQ-tG-bS7">
                                 <rect key="frame" x="-93" y="64" width="396" height="301"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1910,16 +1916,10 @@
                                 <rect key="frame" x="45" y="69" width="120" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="hearts"/>
+                                <buttonConfiguration key="configuration" style="gray" title="  "/>
                                 <connections>
                                     <action selector="buyHeartsButton:" destination="h1x-mM-3OA" eventType="touchUpInside" id="fHS-me-hor"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFY-CV-ftw">
-                                <rect key="frame" x="53" y="204" width="105" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="buy"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Azq-1S-dnB">
                                 <rect key="frame" x="20" y="831" width="65" height="31"/>
@@ -1952,7 +1952,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="D1d-Xl-FbK"/>
         <segue reference="Uic-dc-s3Y"/>
-        <segue reference="mC6-ib-95S"/>
+        <segue reference="Gz6-0d-ah9"/>
         <segue reference="AM9-6k-SuK"/>
     </inferredMetricsTieBreakers>
     <resources>

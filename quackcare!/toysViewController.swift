@@ -21,104 +21,89 @@ class toysViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        partyH.isHidden = true
-        sunnies.isHidden = true
-        cowboy.isHidden = true
-        crown1.isHidden = true
+        beachball.isHidden = true
+        basketball.isHidden = true
+        cactus.isHidden = true
+        balloon.isHidden = true
         
-        //edits
-        
-        // Do any additional setup after loading the view.
     }
     var numPress1 = 1
     
     @IBAction func buyBeachButton(_ sender: Any) {
-    }
-    @IBAction func buyBalloonButton(_ sender: Any) {
-    }
-    @IBAction func buyCactusButton(_ sender: Any) {
-    }
-    @IBAction func buyBasketballButton(_ sender: Any) {
-    }
-    @IBAction func partyHatButton(_ sender: Any) {
         numPress1 = (numPress1 + 1)
         if numPress1 % 2 == 0{
-            partyHat1.isHidden = false
-            sunnies.isHidden = true
-            crown1.isHidden = true
-            cowboy.isHidden = true
-            partyHat.setTitle(" Undo ", for: .normal)
+            beachball.isHidden = false
+            basketball.isHidden = true
+            cactus.isHidden = true
+            balloon.isHidden = true
+            buyBasketball.setTitle(" Undo ", for: .normal)
         }
         else {
-            partyHat1.isHidden = true
-            sunnies.isHidden = true
-            crown1.isHidden = true
-            cowboy.isHidden = true
-            partyHat.setTitle("  ", for: .normal)
+            beachball.isHidden = true
+            basketball.isHidden = true
+            cactus.isHidden = true
+            balloon.isHidden = true
+            buyBasketball.setTitle("  ", for: .normal)
         }
     }
+    
     var numPress2 = 1
-    @IBAction func cowBoyHatButton(_ sender: Any) {
+    
+    @IBAction func buyBalloonButton(_ sender: Any) {
         numPress2 = (numPress2 + 1)
         if numPress2 % 2 == 0{
-            partyHat1.isHidden = true
-            sunnies.isHidden = true
-            crown1.isHidden = true
-            cowboy.isHidden = false
-            cowboyHat.setTitle(" Undo ", for: .normal)
+            beachball.isHidden = true
+            basketball.isHidden = true
+            cactus.isHidden = true
+            balloon.isHidden = false
+            buyBalloon.setTitle(" Undo ", for: .normal)
             
         }
         else {
-            partyHat1.isHidden = true
-            sunnies.isHidden = true
-            crown1.isHidden = true
-            cowboy.isHidden = true
-            cowboyHat.setTitle("  ", for: .normal)
+            beachball.isHidden = true
+            basketball.isHidden = true
+            cactus.isHidden = true
+            balloon.isHidden = true
+            buyBalloon.setTitle("  ", for: .normal)
         }
     }
-    var numPress3 = 1
-    
-    @IBAction func crownHatButton(_ sender: Any) {
-        numPress3 = (numPress3 + 1)
-        if numPress3 % 2 == 0{
-            partyHat1.isHidden = true
-            sunnies.isHidden = true
-            crown1.isHidden = false
-            cowboy.isHidden = true
-            crownHat.setTitle(" Undo ", for: .normal)
+    @IBAction func buyCactusButton(_ sender: Any) {
+        numPress2 = (numPress2 + 1)
+        if numPress2 % 2 == 0{
+            beachball.isHidden = true
+            basketball.isHidden = true
+            cactus.isHidden = false
+            balloon.isHidden = true
+            buyCactus.setTitle(" Undo ", for: .normal)
             
         }
         else {
-            partyHat1.isHidden = true
-            sunnies.isHidden = true
-            crown1.isHidden = true
-            cowboy.isHidden = true
-            crownHat.setTitle(" ", for: .normal)
+            beachball.isHidden = true
+            basketball.isHidden = true
+            cactus.isHidden = true
+            balloon.isHidden = true
+            buyCactus.setTitle("  ", for: .normal)
         }
     }
-    
-    @IBAction func sunGlassesHat(_ sender: Any) {
-        numPress1 = (numPress1 + 1)
-        if numPress1 % 2 == 0{
-            partyHat1.isHidden = true
-            sunnies.isHidden = false
-            crown1.isHidden = true
-            cowboy.isHidden = true
-            sunglass.setTitle(" Undo ", for: .normal)
+    @IBAction func buyBasketballButton(_ sender: Any) {
+        numPress2 = (numPress2 + 1)
+        if numPress2 % 2 == 0{
+            beachball.isHidden = true
+            basketball.isHidden = false
+            cactus.isHidden = true
+            balloon.isHidden = true
+            buyBasketball.setTitle(" Undo ", for: .normal)
             
         }
         else {
-            partyHat1.isHidden = true
-            sunnies.isHidden = true
-            crown1.isHidden = true
-            cowboy.isHidden = true
-            sunglass.setTitle(" ", for: .normal)
+            beachball.isHidden = true
+            basketball.isHidden = true
+            cactus.isHidden = true
+            balloon.isHidden = true
+            buyBasketball.setTitle("  ", for: .normal)
         }
     }
     
-    
-
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -126,6 +111,4 @@ class toysViewController: UIViewController {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-    */
-
 }
