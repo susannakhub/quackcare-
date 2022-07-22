@@ -28,7 +28,7 @@ class GoalViewController: UIViewController {
 //          }
 //          try? context.save()
 //        }
-//    }
+    }
 //
     
     override func viewDidLoad() {
